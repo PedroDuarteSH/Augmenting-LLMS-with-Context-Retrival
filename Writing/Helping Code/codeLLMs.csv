@@ -1,0 +1,6 @@
+Model,Context Window,
+GitHub Copilot,8000,https://github.blog/changelog/2023-08-28-github-copilot-august-28th-update/
+Code Llama,100000,https://arxiv.org/pdf/2308.12950.pdf
+ DeciCoder,2048,https://deci.ai/blog/decicoder-efficient-and-accurate-code-generation-llm/
+StarCoder,8192,https://arxiv.org/abs/2305.06161
+PolyCoder,2048,https://arxiv.org/pdf/2202.13169.pdf

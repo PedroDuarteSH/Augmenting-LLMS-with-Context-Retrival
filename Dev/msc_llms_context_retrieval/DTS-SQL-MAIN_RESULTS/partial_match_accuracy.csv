@@ -1,0 +1,1887 @@
+,true,predicted,accuracy
+0,['film'],"['film', 'inventory']",1
+1,"['central_superstore', 'product']","['central_superstore', 'product']",1
+2,"['reviews', 'district']","['reviews', 'client']",0
+3,"['IMG_OBJ', 'OBJ_CLASSES', 'IMG_OBJ_ATT', 'ATT_CLASSES']","['img_obj', 'obj_class', 'att_class']",0
+4,['Person'],['person'],0
+5,"['rootbeerbrand', 'rootbeerreview']","['rootbeerbrand', 'rootbeerreview']",1
+6,"['data', 'production', 'country']","['data', 'country', 'production']",1
+7,"['Paper', 'Journal']","['paper', 'journal']",0
+8,"['movie', 'characters']","['characters', 'movie']",1
+9,"['east_superstore', 'product']","['central_superstore', 'east_superstore']",0
+10,"['client', 'district']",['client'],0
+11,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+12,"['gender_age', 'phone_brand_device_model2']",['phone_brand_device_model2'],0
+13,"['sea', 'mergesWith']","['sea', 'geo_sea']",0
+14,"['state', 'country']","['state', 'country']",1
+15,"['student', 'registration', 'course']","['course', 'registration', 'student']",1
+16,['Conference'],['conference'],0
+17,"['truck', 'shipment']","['shipment', 'truck']",1
+18,"['Person', 'PersonPhone', 'Employee']","['person', 'jobcandidate']",0
+19,"['CBSA', 'zip_data']","['state', 'cbsa']",0
+20,['Country'],"['country', 'countrynotes']",0
+21,['PRED_CLASSES'],['pred_classes'],0
+22,"['reviews', 'district']",['reviews'],0
+23,"['FootNotes', 'Country']","['countrynotes', 'country']",0
+24,"['production_company', 'movie_company', 'movie']",['movie_company'],0
+25,"['Employees', 'Orders', 'Order Details', 'Products', 'Customers']","['products', 'suppliers', 'customers']",0
+26,"['trip', 'station']","['trip', 'station']",1
+27,"['Territories', 'Region']",['customers'],0
+28,"['sea', 'located', 'city']","['city', 'geo_sea']",0
+29,"['Journal', 'Paper']","['journal', 'paper']",0
+30,"['Customers', 'Orders']","['orders', 'customers']",0
+31,"['ranking_criteria', 'university_ranking_year', 'university']","['university', 'university_ranking_year', 'ranking_criteria']",1
+32,"['actors', 'movies2actors']",['movies2actors'],0
+33,"['games', 'games_competitor']","['games', 'games_competitor']",1
+34,"['movie', 'movie_crew', 'person']","['movie_crew', 'person']",1
+35,"['movie', 'characters', 'actor']","['characters', 'actor']",0
+36,"['person_region', 'noc_region']","['person_region', 'noc_region']",1
+37,['no_payment_due'],['no_payment_due'],1
+38,"['conditions', 'patients']","['conditions', 'patients']",1
+39,['movies'],"['movies', 'ratings']",1
+40,"['Repo', 'Solution']","['solution', 'repo']",0
+41,"['Community_Area', 'Crime']","['crime', 'community_area']",0
+42,"['coins', 'historical']","['historical', 'coins']",1
+43,['IMG_REL'],['img_rel'],0
+44,['part'],"['part', 'partsupp']",1
+45,"['movie', 'characters', 'actor']","['movie', 'actor', 'characters']",1
+46,['weather'],['weather'],1
+47,"['label_categories', 'app_labels', 'app_events']","['app_all', 'app_events', 'events', 'events_relevant']",0
+48,"['District', 'Crime']","['crime', 'district']",0
+49,['Categories'],['categories'],0
+50,"['Solution', 'Method']","['solution', 'apiCalls']",0
+51,"['course', 'taughtBy']","['course', 'taughtby']",0
+52,"['employees', 'offices']",['employees'],0
+53,"['patients', 'conditions']","['conditions', 'patients']",1
+54,['movie_crew'],['movie_crew'],1
+55,"['Products', 'Order Details', 'Categories']","['products', 'categories']",0
+56,"['area_code', 'zip_data']","['area_code', 'zip_data']",1
+57,"['u2base', 'users']",['users'],0
+58,"['weather', 'sales_in_weather', 'relation']","['weather', 'relation', 'sales_in_weather']",1
+59,['reviews'],['reviews'],1
+60,"['callcenterlogs', 'events']",['callcenterlogs'],0
+61,"['MenuPage', 'MenuItem', 'Dish', 'Menu']","['dish', 'menuitem']",0
+62,"['characters', 'actor', 'movie']","['movie', 'actor', 'characters']",1
+63,"['label_categories', 'app_labels']",['app_labels'],0
+64,['film'],['film'],1
+65,"['data', 'price']","['data', 'price']",1
+66,['film'],['film'],1
+67,"['orderdetails', 'orders']",['orders'],0
+68,['trains'],['trains'],1
+69,"['central_superstore', 'product']",['central_superstore'],0
+70,['teams'],['teams'],1
+71,"['establishment', 'inspection']","['inspection', 'establishment']",1
+72,"['ranking_criteria', 'university_ranking_year', 'university']","['university', 'university_ranking_year']",0
+73,"['employee', 'position']",['position'],0
+74,['pages'],['pages'],1
+75,['Business_Hours'],['business_hours'],0
+76,"['Customers', 'Orders']","['orders', 'shippers']",0
+77,['gender_age'],['gender_age'],1
+78,"['rootbeerbrand', 'rootbeer']","['rootbeerbrand', 'transaction']",1
+79,"['game_platform', 'platform', 'game_publisher', 'game']","['game_platform', 'game']",0
+80,"['Person', 'Employee']",['person'],0
+81,"['Player', 'Season']","['player', 'win_by', 'match']",0
+82,"['ProductReview', 'Product']","['productreview', 'product', 'salesorderdetail']",0
+83,"['customer', 'rental', 'inventory', 'film']","['actor', 'customer', 'rental', 'film', 'film_actor']",0
+84,"['east_superstore', 'people']","['central_superstore', 'east_superstore']",1
+85,"['country', 'zip_data']","['area_code', 'zip_data']",0
+86,"['essays', 'donations']",['projects'],0
+87,"['Customers', 'Sales']","['sales', 'customers']",0
+88,"['Country', 'CountryNotes']","['country', 'series', 'countrynotes']",0
+89,"['Product', 'WorkOrder']",['workorder'],0
+90,['officers'],['officers'],1
+91,"['Sales Orders', 'Products']","['products', 'sales orders']",0
+92,"['movies2actors', 'movies2directors', 'actors']",['movies2actors'],0
+93,"['Reviews', 'Business']","['reviews', 'business']",0
+94,['course'],['course'],1
+95,"['players', 'players_teams']","['player_allstar', 'players']",0
+96,"['ratings', 'movies', 'ratings_users']","['ratings', 'movies']",0
+97,"['orderdetails', 'products']","['products', 'orderdetails']",1
+98,"['Country', 'Indicators']","['country', 'countrynotes']",0
+99,"['filed_for_bankrupcy', 'no_payment_due']","['no_payment_due', 'bool']",0
+100,['characters'],['characters'],1
+101,"['words', 'pages_words', 'pages']",['pages'],0
+102,"['Product', 'ProductCostHistory']","['product', 'productcosthistory']",0
+103,"['ranking_system', 'ranking_criteria']","['ranking_system', 'ranking_criteria']",1
+104,"['events', 'phone_brand_device_model2']","['events', 'phone_brand_device_model2']",1
+105,['employee'],['employee'],1
+106,"['Solution', 'Method']","['solution', 'method']",0
+107,"['Business', 'Checkins', 'Days']","['business_hours', 'days']",0
+108,"['truck', 'shipment']","['driver', 'shipment']",0
+109,['CreditCard'],['creditCard'],1
+110,['gender_age'],['phone_brand_device_model2'],0
+111,['events'],"['events', 'client']",1
+112,['events'],['events'],1
+113,['Episode'],['episode'],0
+114,"['directors', 'movies2directors']","['directors', 'movies2directors']",1
+115,['AwardsPlayers'],"['awardsplayers', 'goalies']",0
+116,"['Reviews', 'Users']","['reviews', 'users']",0
+117,"['generalinfo', 'geographic']","['location', 'generalinfo']",0
+118,"['MenuItem', 'MenuPage', 'Menu', 'Dish']","['dish', 'menuitem']",0
+119,"['movies2actors', 'movies2directors']","['movies', 'movies2directors', 'directors']",0
+120,"['Employee', 'Person']",['person'],0
+121,"['Sales Orders', 'Sales Team']","['sales team', 'sales orders']",0
+122,"['Categories', 'Business_Categories', 'Business']","['business', 'business_categories', 'categories']",0
+123,['works'],"['works', 'chapters']",1
+124,"['IMG_OBJ', 'OBJ_CLASSES']",['img_obj'],0
+125,"['IUCR', 'Crime']","['crime', 'fbi_code']",0
+126,['divisions'],['divisions'],1
+127,"['inspection_point', 'violation']","['inspection', 'violation']",0
+128,"['competitor_event', 'games_competitor', 'event', 'medal']","['competitor_event', 'event', 'games_competitor', 'medal']",1
+129,"['Paper', 'Journal']","['paper', 'journal']",0
+130,"['trip', 'station']","['trip', 'station']",1
+131,"['employee', 'inspection']","['inspection', 'employee']",1
+132,"['movie', 'movie_keywords', 'keyword']","['keyword', 'movie_keywords']",1
+133,"['Master', 'AwardsCoaches']","['awardsCoaches', 'coaches']",0
+134,['biwords'],['biwords'],1
+135,"['Reviews', 'Users']","['reviews', 'tips']",0
+136,"['south_superstore', 'product']","['product', 'south_superstore']",1
+137,"['conditions', 'patients']",['patients'],0
+138,"['Orders', 'Shippers']","['orders', 'shippers']",0
+139,"['establishment', 'inspection']","['inspection', 'establishment', 'violation']",1
+140,['teams'],['teams'],1
+141,"['partsupp', 'lineitem', 'part']","['lineitem', 'part']",0
+142,"['Categories', 'Products', 'Order Details', 'Orders']","['products', 'categories']",0
+143,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+144,['enlist'],['enlist'],1
+145,"['Paper', 'Conference']","['paper', 'journal', 'conference']",0
+146,"['CBSA', 'zip_data']","['area_code', 'cbsa']",0
+147,"['IMG_REL', 'PRED_CLASSES']","['img_rel', 'pred_classes']",0
+148,"['order_status', 'order_history']","['order_history', 'order_line']",0
+149,"['movie', 'characters', 'actor']","['movie', 'actor']",0
+150,"['movie', 'movie_keywords']",['movie_keywords'],0
+151,"['twitter', 'location']","['twitter', 'location']",1
+152,"['actor', 'film_actor', 'film']","['actor', 'rental']",0
+153,"['book_author', 'author', 'book']","['book_author', 'author']",1
+154,"['game', 'game_publisher']","['game_publisher', 'game']",1
+155,"['country', 'language', 'population']","['country', 'population']",0
+156,"['Country', 'country']","['countrynotes', 'country']",0
+157,"['Employee', 'Person']",['employee'],0
+158,['supplier'],['supplier'],1
+159,"['Paper', 'Conference']","['paper', 'conference']",0
+160,['rental'],"['rental', 'customer']",1
+161,"['current', 'current-terms']","['current', 'current-terms']",1
+162,"['film_actor', 'actor', 'film']","['film_text', 'actor', 'film_actor']",1
+163,"['client', 'events']","['events', 'client']",1
+164,['employee'],['employee'],1
+165,"['client', 'callcenterlogs']","['events', 'client']",0
+166,"['Person', 'Award']","['award', 'person']",0
+167,['position'],['position'],1
+168,['incidents'],"['incidents', 'subjects']",1
+169,"['data', 'production', 'country']","['country', 'production']",0
+170,['river'],"['river', 'geo_sea']",1
+171,"['categories', 'reviews']","['reviews', 'categories']",1
+172,"['customers', 'rootbeerreview']",['rootbeerreview'],0
+173,"['events', 'gender_age']","['events', 'gender_age']",1
+174,"['SeasonStatus', 'PlayerInfo']","['playerinfo', 'seasonstatus']",0
+175,['actor'],['actor'],1
+176,"['inspection', 'employee', 'violation', 'inspection_point']","['inspection', 'employee']",0
+177,['coaches'],"['awards_coaches', 'coaches']",1
+178,"['Master', 'Scoring']","['scoring', 'teams']",0
+179,"['Country', 'CountryNotes']","['country', 'countrynotes']",0
+180,['historical'],"['historical', 'historical-terms']",1
+181,['Airlines'],['airports'],0
+182,"['Person', 'Credit', 'Vote']","['credit', 'episode']",0
+183,"['supplier', 'partsupp']","['partsupp', 'supplier']",1
+184,"['ranking_criteria', 'university_ranking_year', 'university']","['university', 'university_ranking_year', 'ranking_criteria']",1
+185,"['Attributes', 'Business_Attributes']","['business_attributes', 'attributes']",0
+186,"['matchs', 'divisions']","['matchs', 'divisions']",1
+187,['Business'],['business'],0
+188,"['Award', 'Episode']",['award'],0
+189,"['orders', 'lineitem']",['lineitem'],0
+190,"['Users', 'Users_Compliments']","['users', 'users_compliments']",0
+191,"['phone_brand_device_model2', 'gender_age']",['phone_brand_device_model2'],0
+192,"['phone_brand_device_model2', 'gender_age']","['phone_brand_device_model2', 'gender_age']",1
+193,"['MenuItem', 'Dish']","['dish', 'menuitem']",0
+194,['Airlines'],['airlines'],0
+195,"['current-terms', 'current']","['historical', 'historical-terms']",0
+196,['historical'],"['historical', 'historical-terms']",1
+197,['OBJ_CLASSES'],['OBJ_CLasSES'],0
+198,"['Episode', 'Vote']",['vote'],0
+199,['Country'],['country'],0
+200,"['sales', 'titles']","['sales', 'titleauthor']",1
+201,['Menu'],"['menuitem', 'dish']",0
+202,"['games', 'games_competitor']","['games', 'games_competitor']",1
+203,"['coins', 'historical']","['historical', 'coins']",1
+204,['Award'],"['award', 'person']",0
+205,"['Award', 'Episode']","['award', 'episode', 'person']",0
+206,"['Team', 'Match']","['match', 'team']",0
+207,"['Paper', 'Journal']","['paper', 'journal']",0
+208,"['weather', 'relation']",['weather'],0
+209,['current-terms'],"['historical', 'historical-terms']",0
+210,"['Employee', 'Person']",['person'],0
+211,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+212,"['TeamVsTeam', 'Teams']",['teams'],0
+213,"['IUCR', 'Crime', 'District']","['crime', 'iucr']",0
+214,['lists'],['lists'],1
+215,"['paper', 'content']","['content', 'paper']",1
+216,"['orders', 'customer']","['customer', 'orders']",1
+217,"['current', 'current-terms']","['historical-terms', 'historical', 'current-terms', 'current']",1
+218,"['PRED_CLASSES', 'IMG_REL']","['pred_classes', 'img_rel']",0
+219,['CurrencyRate'],['CurrencyRate'],1
+220,"['Match', 'Venue']","['match', 'venue']",0
+221,"['OBJ_CLASSES', 'IMG_OBJ']","['obj_classES', 'img_obj']",0
+222,"['characters', 'paragraphs']","['characters', 'chapters']",0
+223,"['Products', 'Order Details']","['products', 'orderdetails']",0
+224,"['prof', 'RA', 'student']","['prof', 'ra', 'student']",0
+225,"['west_superstore', 'product']","['product', 'west_superstore']",1
+226,['Customers'],['customers'],0
+227,['Users_Compliments'],"['users_compliments', 'users']",0
+228,"['Country', 'Player']","['player', 'country']",0
+229,"['Team', 'Match', 'Win_By']","['match', 'team']",0
+230,['Paper'],['paper'],0
+231,"['Episode', 'Vote']","['episode', 'vote']",0
+232,"['characters', 'director', 'movies_total_gross']","['movies_total_gross', 'director']",0
+233,"['movies', 'u2base', 'movies2directors']","['movies', 'u2base']",0
+234,"['players', 'awards_players']",['players'],0
+235,"['country', 'organization']","['organization', 'city']",0
+236,"['Question', 'Answer']","['answer', 'survey']",0
+237,['Person'],['person'],0
+238,"['ratings', 'movies']","['movies', 'ratings']",1
+239,"['book', 'publisher']","['book', 'publisher']",1
+240,['events'],['events'],1
+241,['matchs'],['matchs'],1
+242,"['rootbeerbrand', 'rootbeer', 'transaction']","['location', 'transaction']",0
+243,['Products'],['products'],0
+244,"['book', 'book_language']",['book_language'],0
+245,"['address', 'store', 'inventory', 'film']","['inventory', 'film', 'store', 'address']",1
+246,"['Journal', 'Paper']","['journal', 'paper']",0
+247,"['u2base', 'users', 'movies2directors']","['movies', 'u2base', 'users']",0
+248,"['City', 'Country']",['city'],0
+249,"['characters', 'paragraphs']","['characters', 'chapters']",0
+250,"['PaperAuthor', 'Paper']","['paperAuthor', 'author']",0
+251,"['Nutrition', 'Quantity']","['recipe', 'nutrition']",0
+252,"['MenuItem', 'MenuPage', 'Menu', 'Dish']","['dish', 'menuitem']",0
+253,['Product'],"['product', 'productlistpricehistory']",0
+254,"['customers', 'transaction']","['transaction', 'customers']",1
+255,['sales_in_weather'],['sales_in_weather'],1
+256,"['Match', 'Player']","['player', 'win_by', 'match']",0
+257,"['station', 'status']",['station'],0
+258,"['Sales Orders', 'Sales Team']","['sales team', 'sales orders']",0
+259,"['ratings', 'movies']","['movies', 'ratings']",1
+260,"['enlist', 'enrolled']","['enrolled', 'organ']",0
+261,"['events', 'client', 'callcenterlogs']","['reviews', 'client']",0
+262,"['employee', 'inspection']","['inspection', 'employee']",1
+263,"['Journal', 'Paper']","['paper', 'journal']",0
+264,"['book', 'order_line']","['order_line', 'book']",1
+265,"['paper', 'content']","['content', 'paper']",1
+266,"['Airlines', 'Airports', 'Air Carriers']","['airlines', 'air carriers']",0
+267,"['Episode', 'Vote']","['episode', 'vote']",0
+268,"['customer', 'nation', 'orders']","['orders', 'customer', 'nation']",1
+269,"['customers', 'rootbeerreview']","['rootbeerreview', 'customers']",1
+270,"['careplans', 'patients']",['careplans'],0
+271,"['country', 'religion']","['religion', 'country']",1
+272,"['sport', 'event']","['sport', 'event']",1
+273,"['incidents', 'subjects']","['subjects', 'officers']",0
+274,"['productlines', 'products']","['products', 'productlines']",1
+275,['rootbeerbrand'],['location'],0
+276,"['games_city', 'city', 'games']","['games_city', 'city']",1
+277,['Menu'],['menu'],0
+278,"['Sales', 'Customers', 'Products']","['sales', 'products', 'customers']",0
+279,"['ratings', 'movies']","['movies', 'ratings']",1
+280,['ProductVendor'],"['productvendor', 'product']",0
+281,['ShipMethod'],"['store', 'shipmethod']",0
+282,"['historical-terms', 'current-terms']",['historical-terms'],0
+283,"['customer', 'nation']","['customer', 'nation']",1
+284,"['customer', 'rental']","['customer', 'staff']",0
+285,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+286,"['violations', 'businesses']","['violations', 'businesses']",1
+287,['Method'],['method'],0
+288,"['congress', 'state', 'zip_data']","['state', 'city']",0
+289,"['data', 'price']","['data', 'price']",1
+290,"['Master', 'Coaches']","['coaches', 'teams']",0
+291,['movies'],"['movies', 'lists_users']",1
+292,"['weather', 'relation']",['weather'],0
+293,"['trip', 'weather']","['weather', 'trip']",1
+294,"['Paper', 'PaperAuthor', 'Journal']","['paperAuthor', 'journal']",0
+295,"['Solution', 'Method']","['solution', 'method']",0
+296,['Player_Match'],['player_match'],0
+297,['game'],"['game', 'genre']",1
+298,"['rootbeer', 'rootbeerbrand']","['rootbeer', 'rootbeerbrand']",1
+299,['City'],"['city', 'country']",0
+300,"['orders', 'customers']","['orders', 'customers']",1
+301,['app_events'],['events'],0
+302,"['voice-actors', 'characters']",['voice-actors'],0
+303,"['province', 'city']","['city', 'province']",1
+304,"['university', 'country']","['university', 'country']",1
+305,"['enlist', 'male']","['enlist', 'male']",1
+306,"['Master', 'Scoring']","['combinedshutouts', 'teams']",0
+307,['enlist'],['enlist'],1
+308,"['client', 'district']","['client', 'state', 'district']",1
+309,"['sport', 'event']","['sport', 'event']",1
+310,"['area_code', 'zip_data']",['area_code'],0
+311,['Business'],['business'],0
+312,"['current', 'social-media']",['current'],0
+313,"['Employee', 'Person']","['person', 'employee', 'employeeDepartmenthistory', 'salesperson']",0
+314,"['products', 'orderdetails']","['products', 'orderdetails']",1
+315,"['Employee', 'Person']",['person'],0
+316,['trip'],['trip'],1
+317,"['patients', 'claims']",['patients'],0
+318,"['FBI_Code', 'Crime', 'Community_Area']","['crime', 'fbi_code']",0
+319,['Teams'],"['combinedshutouts', 'teams']",0
+320,"['Indicators', 'Series']","['indicators', 'country']",0
+321,"['events', 'gender_age']","['events', 'phone_brand_device_model2', 'gender_age_train']",1
+322,['IUCR'],"['crime', 'iucr']",0
+323,"['IMG_OBJ_ATT', 'ATT_CLASSES']","['img_obj', 'obj_classES']",0
+324,"['person', 'taughtBy', 'course']","['taughtby', 'person']",0
+325,"['Episode', 'Credit', 'Person']","['credit', 'episode', 'person']",0
+326,"['Product', 'ProductVendor', 'Vendor']","['productvendor', 'product']",0
+327,"['country', 'encompasses']","['country', 'continent', 'population', 'encompasses']",1
+328,"['City', 'Country']","['city', 'country']",0
+329,['politics'],['country'],0
+330,"['Dish', 'MenuItem']","['dish', 'menuitem']",0
+331,"['Business', 'Business_Hours', 'Days']","['business', 'days']",0
+332,"['Person', 'PersonCreditCard']","['person', 'personcreditcard']",0
+333,['film'],"['film', 'inventory', 'rental']",1
+334,"['avoid', 'zip_data']","['alias', 'state']",0
+335,"['east_superstore', 'people']","['people', 'east_superstore']",1
+336,"['u2base', 'users']","['u2base', 'users']",1
+337,"['resources', 'projects']",['projects'],0
+338,['film'],['film_text'],1
+339,"['book', 'order_line', 'cust_order', 'customer']","['order_line', 'book', 'cust_order', 'customer']",1
+340,"['ratings', 'movies', 'lists']","['lists', 'movies']",0
+341,['customer'],['customer'],1
+342,"['ratings', 'movies']","['ratings', 'movies']",1
+343,['generalinfo'],['generalinfo'],1
+344,"['City', 'Country']","['city', 'country']",0
+345,['label_categories'],['label_categories'],1
+346,['IUCR'],"['crime', 'iucr']",0
+347,"['state_sector_details', 'state_sector_grads']","['institution_details', 'institution_grads']",0
+348,"['Paper', 'PaperAuthor']","['paper', 'paperauthor']",0
+349,"['patients', 'medications']",['medications'],0
+350,['user_reviews'],"['playstore', 'user_reviews']",1
+351,"['Business', 'Reviews']","['reviews', 'business']",0
+352,"['careplans', 'patients']","['careplans', 'patients']",1
+353,"['movies_total_gross', 'director']","['movies_total_gross', 'director']",1
+354,"['orders', 'customer']","['orders', 'customer']",1
+355,"['MenuPage', 'MenuItem']","['menuitem', 'dish']",0
+356,['events'],['events'],1
+357,"['movie', 'movie_crew', 'person']","['person', 'movie_crew']",1
+358,['genre'],['genre'],1
+359,"['Business', 'Business_attributes', 'Attributes']","['business_attributes', 'attributes']",0
+360,"['Episode', 'Vote']",['episode'],0
+361,"['gender_age', 'events']","['events', 'phone_brand_device_model2']",0
+362,['Menu'],"['menuPage', 'menu']",0
+363,"['institution_details', 'institution_grads']",['institution_grads'],0
+364,"['people', 'central_superstore', 'product']","['people', 'central_superstore']",0
+365,"['employee', 'inspection', 'violation']","['employee', 'violation']",0
+366,"['Products', 'Suppliers']","['products', 'suppliers']",0
+367,"['essays', 'projects']",['projects'],0
+368,['game_platform'],['game_publisher'],0
+369,"['events', 'phone_brand_device_model2']",['phone_brand_device_model2'],0
+370,['Customers'],['customers'],0
+371,"['ProductVendor', 'Product']","['product', 'productinventory']",0
+372,['IMG_OBJ'],['img_obj_att'],0
+373,"['Sales Orders', 'Products']","['products', 'sales orders']",0
+374,"['ratings', 'movies']","['movies', 'ratings']",1
+375,['Conference'],['conference'],0
+376,"['university', 'university_ranking_year', 'country']","['university', 'country', 'university_year']",0
+377,"['orderdetails', 'products']",['orders'],0
+378,"['Episode', 'Vote']","['episode', 'vote']",0
+379,"['RA', 'student']",['student'],0
+380,"['registration', 'course']","['course', 'ra']",0
+381,"['matchs', 'divisions']","['matchs', 'divisions']",1
+382,['characters'],['characters'],1
+383,['Award'],['award'],0
+384,"['City', 'Country']","['city', 'country']",0
+385,['PlayerInfo'],"['seasonstatus', 'playerinfo']",0
+386,"['careplans', 'immunizations']","['immunizations', 'careplans']",1
+387,['torrents'],['torrents'],1
+388,['Business_Hours'],['business_hours'],0
+389,"['FBI_Code', 'Crime']","['crime', 'fbi_code']",0
+390,"['Business', 'Business_Categories', 'Categories', 'Business_Attributes', 'Attributes']","['business', 'business_categories', 'business_attributes', 'categories']",0
+391,"['Employees', 'Orders']","['employees', 'orders']",0
+392,"['generalinfo', 'geographic']","['location', 'generalinfo']",0
+393,"['Solution', 'Method']","['solution', 'method']",0
+394,"['torrents', 'tags']","['torrents', 'tags']",1
+395,['playstore'],['playstore'],1
+396,['prof'],['prof'],1
+397,"['Airports', 'Airlines', 'Air Carriers']","['airlines', 'air carriers']",0
+398,"['movie', 'movie_genres', 'genre']","['movie_genres', 'genre']",1
+399,"['Country', 'CountryNotes', 'country', 'countrynotes']","['countrynotes', 'country']",0
+400,"['PaperAuthor', 'Author']","['paperAuthor', 'author']",0
+401,"['Products', 'Suppliers']","['products', 'suppliers']",0
+402,"['IMG_OBJ', 'OBJ_CLASSES']","['img_obj', 'obj_classES']",0
+403,"['Sales Orders', 'Store Locations']","['store locations', 'sales orders']",0
+404,"['words', 'biwords']","['words', 'pages', 'pages_words']",0
+405,['current'],['current'],1
+406,"['alias', 'zip_data']","['alias', 'zip_data']",1
+407,['historical-terms'],['historical'],0
+408,['reviews'],['reviews'],1
+409,"['Episode', 'Credit']","['credit', 'episode']",0
+410,"['violations', 'businesses']","['violations', 'businesses']",1
+411,"['games_city', 'city', 'games']","['games_city', 'city']",1
+412,"['Territories', 'Region']",['territories'],0
+413,['Employees'],['employees'],0
+414,['transaction'],['transaction'],1
+415,"['Products', 'Order Details']",['products'],0
+416,"['Genes', 'Interactions']","['interactions', 'genes']",0
+417,"['director', 'voice-actors']","['director', 'voice-actors']",1
+418,"['person', 'games_competitor']","['games_competitor', 'person']",1
+419,['langs_words'],"['words', 'langs_words']",1
+420,['EmployeePayHistory'],['employee'],0
+421,"['Employees', 'Sales', 'Products']","['sales', 'products']",0
+422,"['islandIn', 'sea', 'island']","['sea', 'island', 'islandIn']",1
+423,"['players', 'players_teams']",['player_allstar'],0
+424,['biwords'],"['biwords', 'langs', 'words']",1
+425,"['cars', 'trains']","['cars', 'trains']",1
+426,"['Person', 'Password']",['person'],0
+427,"['Solution', 'Method']","['solution', 'method']",0
+428,"['Categories', 'Business_Categories', 'Business', 'Business_Attributes', 'Attributes']","['business_attributes', 'attributes', 'business_categories', 'categories']",0
+429,['movie_crew'],"['department', 'movie_crew']",1
+430,"['data', 'price']","['data', 'price']",1
+431,"['ratings', 'movies']","['ratings', 'movies']",1
+432,"['ProductPhoto', 'ProductProductPhoto']",['productphoto'],0
+433,"['Vote', 'Episode']",['vote'],0
+434,"['matchs', 'divisions']","['matchs', 'divisions']",1
+435,"['person', 'enlist', 'male']","['enlist', 'male']",0
+436,"['Person', 'Credit']",['person'],0
+437,"['Product', 'ProductReview']","['product', 'productreview']",0
+438,['Teams'],"['teams', 'goals,']",0
+439,"['Location', 'ProductInventory']","['productSubcategory', 'productcategory']",0
+440,['partsupp'],['partsupp'],1
+441,['Menu'],"['menuPage', 'menu', 'dish']",0
+442,"['historical', 'historical-terms']","['historical', 'historical-terms']",1
+443,"['Air Carriers', 'Airlines']","['airlines', 'air carriers']",0
+444,"['paper', 'content']","['content', 'paper']",1
+445,['Menu'],['menu'],0
+446,"['Answer', 'Question']",['answer'],0
+447,['location'],['location'],1
+448,"['Match', 'Outcome']","['outcome', 'match']",0
+449,"['Sales Orders', 'Sales Team']","['sales team', 'sales orders']",0
+450,"['Ingredient', 'Quantity']","['quantity', 'ingredient']",0
+451,['Teams'],['teams'],0
+452,"['Player', 'Batting_Style']",['player'],0
+453,"['Location', 'ProductInventory']","['product', 'store']",0
+454,['voice-actors'],['voice-actors'],1
+455,"['Business_Hours', 'Days']","['business_hours', 'days']",0
+456,"['words', 'langs_words']","['words', 'langs_words']",1
+457,['taughtBy'],['taughtby'],0
+458,"['area_code', 'zip_data']","['area_code', 'zip_data']",1
+459,"['lists', 'lists_users']","['lists', 'lists_users']",1
+460,"['country', 'encompasses', 'continent', 'population']","['country', 'continent', 'economics']",0
+461,"['characters', 'voice-actors']","['characters', 'voice-actors']",1
+462,"['university_year', 'university']","['university', 'university_year']",1
+463,"['client', 'events']","['client', 'state', 'district']",0
+464,"['Award', 'Episode']","['award', 'episode']",0
+465,"['generalinfo', 'location']","['location', 'generalinfo']",1
+466,"['Bowling_Style', 'Player']","['player', 'bowling_style']",0
+467,"['district', 'client']","['client', 'state', 'district']",1
+468,['Person'],['person'],0
+469,"['trip', 'weather']","['trip', 'status']",0
+470,['prof'],['prof'],1
+471,"['film', 'language']","['film_text', 'language']",1
+472,"['client', 'events']","['events', 'client']",1
+473,"['location', 'generalinfo']","['location', 'generalinfo']",1
+474,"['station', 'status']","['trip', 'station']",0
+475,"['works', 'chapters']","['works', 'chapters', 'paragraphs']",1
+476,['address'],['address'],1
+477,"['ProductVendor', 'Vendor']","['person', 'salesorderheader']",0
+478,"['productlines', 'products']","['products', 'productlines']",1
+479,['lineitem'],['orders'],0
+480,"['employees', 'customers', 'payments']","['employees', 'customers', 'payments']",1
+481,"['location', 'generalinfo']","['location', 'generalinfo']",1
+482,"['longest_absense_from_school', 'filed_for_bankrupcy']","['filed_for_bankrupcy', 'longest_absense_from_school']",1
+483,"['PlayerInfo', 'SeasonStatus', 'height_info']","['height_info', 'playerinfo']",0
+484,"['works', 'chapters', 'paragraphs', 'characters']","['characters', 'works', 'chapters', 'paragraphs']",1
+485,"['Solution', 'Method']","['solution', 'method', 'repo']",0
+486,"['location', 'geolocation']",['location'],0
+487,['university_year'],['university_year'],1
+488,"['draft', 'teams']",['player_allstar'],0
+489,['Business'],['business'],0
+490,"['Customers', 'Demog']","['demog', 'customers']",0
+491,"['customer', 'shipment']","['customer', 'shipment']",1
+492,"['SalesPerson', 'SalesPersonQuotaHistory']","['salesperson', 'salespersonquotahistory']",0
+493,"['Culture', 'ProductModelProductDescriptionCulture']",['Culture'],0
+494,"['state', 'country', 'zip_data']","['state', 'cbsa']",0
+495,['pages'],['pages'],1
+496,"['state_sector_details', 'state_sector_grads']",['state_sector_details'],0
+497,['book'],['book'],1
+498,"['inspection', 'establishment']","['inspection', 'establishment']",1
+499,"['Customers', 'Mailings1_2']","['mailings1_2', 'customers']",0
+500,"['movie', 'movie_cast']","['person', 'movie']",0
+501,"['lists_users', 'lists']","['lists', 'lists_users']",1
+502,"['rootbeer', 'rootbeerreview', 'rootbeerbrand']","['rootbeerreview', 'rootbeerbrand']",1
+503,"['Business', 'Business_Hours']","['business', 'business_Hours']",0
+504,['subjects'],"['subjects', 'officers']",1
+505,['OBJ_CLASSES'],['obj_classes'],0
+506,"['Player', 'Bowling_Style']","['player', 'bowling_style']",0
+507,['player_allstar'],['player_allstar'],1
+508,"['client', 'callcenterlogs']","['client', 'callcenterlogs']",1
+509,['Products'],['products'],0
+510,"['Crime', 'IUCR', 'Community_Area']","['crime', 'community_area']",0
+511,"['country', 'geo_river', 'river']","['river', 'located', 'province']",0
+512,"['data', 'price']","['data', 'price']",1
+513,"['country', 'politics']",['country'],0
+514,"['Person', 'Credit']","['credit', 'person']",0
+515,['Employee'],['employee'],0
+516,['Award'],"['award', 'episode']",0
+517,"['Business', 'Business_Categories', 'Categories']","['business', 'business_categories', 'categories']",0
+518,"['Vendor', 'BusinessEntityContact']","['productvendor', 'vendor']",0
+519,"['movies2directors', 'directors']","['directors', 'movies2directors']",1
+520,['Orders'],"['orders', 'customers']",0
+521,"['Episode', 'Vote']","['episode', 'vote']",0
+522,"['products', 'orderdetails', 'orders', 'customers']","['orders', 'customers']",0
+523,"['FBI_Code', 'Crime', 'Community_Area']","['crime', 'community_area']",0
+524,"['phone_brand_device_model2', 'events']",['phone_brand_device_model2'],0
+525,"['Solution', 'Method']","['solution', 'method']",0
+526,['Airlines'],['airlines'],0
+527,"['address', 'country']","['address', 'country']",1
+528,"['country', 'organization']","['organization', 'province']",0
+529,['IMG_OBJ'],['img_obj'],0
+530,"['data', 'production', 'country', 'price']","['data', 'country', 'production']",0
+531,['customers'],['employees'],0
+532,['lists'],['lists'],1
+533,"['WorkOrder', 'Product']","['workorder', 'product']",0
+534,['ratings'],"['ratings', 'ratings_users']",1
+535,"['event', 'competitor_event', 'games_competitor', 'sport', 'person']","['person', 'medal', 'sport', 'games_competitor']",0
+536,"['projects', 'donations']","['donations', 'projects']",1
+537,"['Teams', 'Coaches', 'Master']","['coaches', 'teamvsteam', 'awardscoaches']",0
+538,"['Products', 'Sales', 'Customers']","['sales', 'products', 'customers']",0
+539,['customer'],['customer'],1
+540,['District'],"['crime', 'district']",0
+541,"['Customers', 'Demog', 'Mailings1_2']","['demog', 'customers']",0
+542,"['Scoring', 'Teams']","['goalies', 'teamvsteam']",0
+543,"['twitter', 'user']","['user', 'twitter']",1
+544,['current'],"['historical', 'historical-terms']",0
+545,"['price', 'production', 'country']","['country', 'price']",0
+546,"['enrolled', 'disabled']","['disabled', 'enrolled']",1
+547,"['games', 'games_competitor', 'person_region', 'noc_region']","['person_region', 'games_competitor', 'person', 'noc_region']",1
+548,"['Person', 'Employee', 'EmployeeDepartmentHistory']","['shift', 'employee']",0
+549,"['data', 'price']","['data', 'price']",1
+550,"['client', 'district', 'state']","['client', 'state', 'district']",1
+551,['Reviews'],['reviews'],0
+552,['Episode'],"['episode', 'vote']",0
+553,"['weather', 'sales_in_weather', 'relation']","['weather', 'sales_in_weather']",0
+554,"['Vote', 'Episode']","['vote', 'episode']",0
+555,"['Territories', 'Region']",['customers'],0
+556,"['gender_age', 'phone_brand_device_model2']",['phone_brand_device_model2'],0
+557,"['Sales', 'Customers']","['sales', 'customers']",0
+558,"['PlayerInfo', 'SeasonStatus']",['playerinfo'],0
+559,"['genre', 'game']","['game', 'genre']",1
+560,"['Orders', 'Shippers']","['orders', 'shippers']",0
+561,"['Award', 'Episode']","['award', 'episode']",0
+562,"['person', 'taughtBy']","['person', 'taughtby']",0
+563,"['Credit', 'Person']","['credit', 'person']",0
+564,['Journal'],['journal'],0
+565,"['data', 'price']","['data', 'price']",1
+566,"['Regions', 'Store Locations']","['store locations', 'regions']",0
+567,"['Player', 'Batting_Style']","['player', 'batting_style']",0
+568,"['orders', 'lineitem']","['orders', 'lineitem']",1
+569,['address'],"['address', 'customer_address']",1
+570,"['Customers', 'Mailings1_2']","['mailings1_2', 'customers']",0
+571,"['Business', 'Business_Hours', 'Days']","['business', 'days']",0
+572,"['matchs', 'divisions']","['matchs', 'divisions']",1
+573,['university'],['university'],1
+574,"['titles', 'sales']",['sales'],0
+575,"['Extra_Runs', 'Extra_Type']","['match', 'extra_type']",0
+576,['Series'],"['series', 'country', 'countrynotes']",0
+577,"['actor', 'film_actor', 'film']","['actor', 'film_actor']",1
+578,"['Suppliers', 'Products', 'Order Details', 'Orders']","['products', 'suppliers', 'orders']",0
+579,"['words', 'pages_words', 'pages']","['words', 'pages', 'pages_words']",1
+580,"['Categories', 'Business_Categories']","['business_categories', 'categories']",0
+581,"['Menu', 'MenuPage', 'MenuItem']","['menupage', 'menu']",0
+582,['playstore'],['playstore'],1
+583,"['Dish', 'MenuItem']","['dish', 'menuitem']",0
+584,"['observations', 'patients']","['patients', 'observations']",1
+585,"['book', 'book_language']",['book_language'],0
+586,"['movie', 'characters', 'actor']","['movie', 'actor', 'characters']",1
+587,"['Repo', 'Solution']","['solution', 'repo']",0
+588,"['words', 'biwords']",['biwords'],0
+589,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+590,"['longest_absense_from_school', 'filed_for_bankrupcy', 'enlist']","['filed_for_bankrupcy', 'longest_absense_from_school', 'enlist']",1
+591,['donations'],['donors'],0
+592,"['torrents', 'tags']","['torrents', 'tags']",1
+593,"['people', 'central_superstore']","['central_superstore', 'people']",1
+594,['advisedBy'],['advisedby'],0
+595,"['Product', 'ProductVendor', 'ProductSubcategory', 'Vendor']","['productvendor', 'product', 'productsubcategory']",0
+596,"['matchs', 'divisions']","['matchs', 'divisions']",1
+597,['Users'],['users'],0
+598,['person'],['person'],1
+599,['lists'],"['lists', 'lists_users']",1
+600,"['careplans', 'patients']",['patients'],0
+601,"['institution_details', 'institution_grads']",['institution_grads'],0
+602,"['movies2directors', 'u2base']","['movies', 'movies2directors']",0
+603,['Country'],['countrynotes'],0
+604,['Customers'],['customers'],0
+605,"['works', 'chapters', 'paragraphs']","['works', 'chapters', 'paragraphs']",1
+606,"['Product', 'ShoppingCartItem']","['productInventory', 'product']",0
+607,"['Menu', 'MenuPage']","['menupage', 'menu']",0
+608,"['players', 'players_teams']","['players', 'player_allstar']",0
+609,"['price', 'production', 'country']","['data', 'country', 'production']",0
+610,['IMG_REL'],['img_rel'],0
+611,"['inspections', 'businesses']","['businesses', 'inspections']",1
+612,"['Dish', 'MenuItem']","['dish', 'menuitem']",0
+613,['person'],['person'],1
+614,"['Employee', 'EmployeePayHistory']",['employee'],0
+615,"['orderdetails', 'products']","['orderdetails', 'products']",1
+616,"['institution_details', 'state_sector_grads']","['institution_details', 'institution_grads']",0
+617,"['Attributes', 'Business_Attributes']","['business_attributes', 'attributes']",0
+618,"['ratings', 'movies']","['movies', 'ratings']",1
+619,['sales_in_weather'],['sales_in_weather'],1
+620,"['Customers', 'Orders', 'Order Details']","['orders', 'customers']",0
+621,"['Ingredient', 'Quantity']","['quantity', 'ingredient']",0
+622,['Users'],['reviews'],0
+623,"['movies2directors', 'movies']","['movies', 'movies2directors']",1
+624,"['area_code', 'zip_data']","['area_code', 'zip_data']",1
+625,['inspection'],['inspection'],1
+626,"['current-terms', 'current']","['current', 'historical']",0
+627,"['Customers', 'Orders', 'Order Details']","['orders', 'customers']",0
+628,"['Elite', 'Users', 'Users_Compliments', 'Compliments', 'Years']","['reviews', 'users']",0
+629,"['podcasts', 'reviews']",['reviews'],0
+630,['Award'],"['award', 'person']",0
+631,"['pages', 'pages_words']","['pages', 'words', 'pages_words']",1
+632,"['Crime', 'IUCR']","['crime', 'iucr']",0
+633,"['south_superstore', 'people', 'product']","['central_superstore', 'people']",0
+634,"['platform', 'game_platform', 'game_publisher', 'game']","['game_platform', 'platform']",0
+635,['historical-terms'],['historical-terms'],1
+636,"['country', 'zip_congress', 'congress']",['alias'],0
+637,"['Products', 'Suppliers']","['products', 'suppliers']",0
+638,"['Air Carriers', 'Airlines']","['airlines', 'air carriers']",0
+639,"['Person', 'Credit']","['credit', 'person']",0
+640,"['District', 'Crime']","['crime', 'district']",0
+641,"['production', 'country']","['country', 'production']",1
+642,"['book', 'publisher']","['book', 'publisher']",1
+643,"['gender_age', 'phone_brand_device_model2']",['phone_brand_device_model2'],0
+644,['Episode'],['episode'],0
+645,"['continent', 'encompasses', 'country', 'organization']","['organization', 'continent']",0
+646,"['Country', 'Indicators']","['country', 'indicators']",0
+647,"['Employees', 'EmployeeTerritories', 'Territories']","['employees', 'orders']",0
+648,"['ratings', 'movies']","['movies', 'ratings']",1
+649,"['torrents', 'tags']","['torrents', 'tags']",1
+650,['Suppliers'],['suppliers'],0
+651,"['ShipMethod', 'SalesOrderHeader']",['ShipMethod'],0
+652,['SpecialOffer'],"['productcategory', 'salesreason']",0
+653,"['MenuPage', 'MenuItem', 'Dish']","['dish', 'menuitem']",0
+654,"['noc_region', 'person_region', 'person']","['person_region', 'person', 'noc_region']",1
+655,"['conditions', 'patients']","['patients', 'conditions']",1
+656,"['longest_absense_from_school', 'disabled']","['disabled', 'longest_absense_from_school']",1
+657,"['works', 'chapters']","['works', 'chapters']",1
+658,"['no_payment_due', 'enlist']","['enlist', 'no_payment_due']",1
+659,"['Credit', 'Person']","['credit', 'person']",0
+660,['Users'],"['reviews', 'users']",0
+661,"['Customers', 'Orders']","['orders', 'suppliers']",0
+662,"['works', 'chapters']","['works', 'chapters']",1
+663,"['Employee', 'EmployeeDepartmentHistory']","['employee', 'employeeDepartmenthistory']",0
+664,"['CBSA', 'zip_data']","['zip_data', 'state', 'cbsa']",0
+665,"['university', 'university_year', 'country']","['university', 'country']",0
+666,"['geographic', 'location']","['location', 'generalinfo']",0
+667,"['customer', 'rental', 'inventory', 'film']","['rental', 'film', 'customer']",0
+668,"['Conference', 'Paper', 'PaperAuthor']","['paper', 'conference']",0
+669,"['TeamsSC', 'Teams']","['teams', 'teamvsteam']",0
+670,"['shipment', 'city']","['city', 'shipment']",1
+671,"['BusinessEntityAddress', 'AddressType']",['businessentityaddress'],0
+672,"['customer', 'rental', 'inventory', 'film']","['film', 'inventory', 'rental', 'customer']",1
+673,"['movie', 'movie_languages']",['movie'],0
+674,"['playstore', 'user_reviews']",['playstore'],0
+675,"['Orders', 'Order Details', 'Shippers']","['orders', 'shippers', 'suppliers']",0
+676,['violations'],['violations'],1
+677,"['podcasts', 'reviews']","['reviews', 'podcasts']",1
+678,"['Employees', 'Orders']","['employees', 'orders']",0
+679,"['phone_brand_device_model2', 'events']","['events', 'phone_brand_device_model2']",1
+680,"['ratings', 'movies']","['movies', 'ratings', 'ratings_users']",1
+681,"['pages', 'pages_words']","['words', 'pages', 'pages_words']",1
+682,"['location', 'generalinfo']",['location'],0
+683,"['patients', 'conditions']","['conditions', 'patients']",1
+684,"['chapters', 'works']","['works', 'chapters']",1
+685,['customer'],"['customer', 'nation']",1
+686,['biwords'],"['words', 'pages', 'pages_words']",0
+687,['Person'],['person'],0
+688,"['movies_total_gross', 'characters']",['movies_total_gross'],0
+689,"['location', 'geographic']","['location', 'geographic']",1
+690,"['Sales Orders', 'Store Locations']","['store locations', 'sales orders']",0
+691,"['Orders', 'Shippers']","['orders', 'shippers']",0
+692,"['MenuItem', 'Dish']","['menu', 'dish']",0
+693,"['person', 'taughtBy', 'course']","['course', 'taughtby', 'person']",0
+694,"['works', 'chapters']","['works', 'chapters']",1
+695,['matchs'],['matchs'],1
+696,"['coins', 'historical']","['historical', 'coins']",1
+697,"['Menu', 'MenuPage']","['menuPage', 'menu']",0
+698,['pages'],"['pages', 'words', 'pages_words']",1
+699,"['shipment', 'driver']","['driver', 'shipment']",1
+700,"['Goalies', 'Master']","['goaliessc', 'abbrev']",0
+701,"['country', 'city']","['country', 'city']",1
+702,"['Person', 'Award']","['award', 'credit', 'person']",0
+703,"['current', 'social-media']","['historical', 'historical-terms', 'social-media']",0
+704,"['jobs', 'employee']",['employee'],0
+705,['position'],['position'],1
+706,['historical'],"['historical', 'historical-terms']",1
+707,"['Match', 'Venue']","['match', 'venue']",0
+708,['male'],"['person', 'male']",1
+709,"['customer', 'cust_order', 'shipping_method']","['order_history', 'cust_order', 'shipping_method']",1
+710,"['Crime', 'Ward']","['crime', 'fbi_code']",0
+711,"['Business_Categories', 'Categories']","['business_categories', 'categories']",0
+712,"['Sales', 'Customers']","['sales', 'customers']",0
+713,"['PaperAuthor', 'Paper']","['paperAuthor', 'author']",0
+714,"['country', 'located', 'sea']","['sea', 'borders', 'religion', 'province']",0
+715,['geo_desert'],"['desert', 'located', 'country']",0
+716,"['Business', 'Reviews']","['reviews', 'business']",0
+717,['university_ranking_year'],['university_ranking_year'],1
+718,"['IMG_OBJ_ATT', 'ATT_CLASSES']","['img_obj', 'att_classes']",0
+719,"['Country', 'Indicators']","['country', 'indicators']",0
+720,"['employee', 'inspection']","['employee', 'inspection']",1
+721,['playstore'],"['playstore', 'user_reviews']",1
+722,['address'],['address'],1
+723,"['gender_age', 'phone_brand_device_model2']","['phone_brand_device_model2', 'gender_age_train']",1
+724,"['Paper', 'Journal']","['journal', 'paper']",0
+725,"['directors', 'movies2directors']","['movies', 'movies2directors']",1
+726,"['Airports', 'Airlines']",['airlines'],0
+727,"['resources', 'projects']","['projects', 'primary_focus_area', 'resource_type', 'item_quantity']",1
+728,"['institution_details', 'institution_grads']","['institution_details', 'institution_grads']",1
+729,"['SalesTaxRate', 'StateProvince', 'SalesTerritory']","['salesorderheader', 'salesterritory', 'salesterritoryhistory']",0
+730,"['violation', 'inspection_point']","['violation', 'establishment']",0
+731,"['gender_age', 'phone_brand_device_model2']","['gender_age', 'phone_brand_device_model2']",1
+732,"['PaperAuthor', 'Author']","['paperAuthor', 'author']",0
+733,"['Employee', 'Person']",['person'],0
+734,"['titles', 'sales', 'publishers']","['sales', 'stores']",0
+735,"['movies2directors', 'movies']","['movies', 'movies2directors']",1
+736,"['Award', 'Person']","['credit', 'award', 'episode']",0
+737,"['country', 'geo_mountain', 'mountain']","['mountain', 'mountainOnIsland', 'lake']",0
+738,"['PRED_CLASSES', 'IMG_REL']","['pred_classes', 'img_rel']",0
+739,"['games', 'games_competitor']","['games', 'games_competitor']",1
+740,['orders'],['orders'],1
+741,"['current', 'current-terms']","['historical', 'historical-terms']",0
+742,"['orders', 'lineitem', 'part']","['lineitem', 'part']",0
+743,"['publisher', 'game_publisher']","['game_publisher', 'publisher']",1
+744,"['Employees', 'Sales', 'Products']","['sales', 'products']",0
+745,"['WorkOrderRouting', 'Location']","['workorder', 'location']",0
+746,['game_platform'],['game'],0
+747,"['Sales Orders', 'Store Locations']","['store locations', 'sales orders']",0
+748,"['order_status', 'order_history', 'cust_order']",['order_status'],0
+749,"['patients', 'observations']",['observations'],0
+750,"['actor', 'film_actor', 'film']","['actor', 'film_actor']",1
+751,['Author'],['author'],0
+752,"['Products', 'Categories']","['products', 'categories']",0
+753,"['Employee', 'Person']",['employee'],0
+754,"['customer', 'customer_address', 'address', 'country']","['address', 'customer']",0
+755,"['east_superstore', 'product']","['central_superstore', 'product']",1
+756,"['Products', 'Sales']","['sales', 'products']",0
+757,['events'],['events'],1
+758,['generalinfo'],"['location', 'generalinfo']",1
+759,"['Products', 'Order Details']","['products', 'orderdetails']",0
+760,['violation'],"['inspection', 'violation']",1
+761,"['games_city', 'city', 'games']","['games_city', 'city']",1
+762,['Employees'],['employees'],0
+763,"['IMG_OBJ', 'OBJ_CLASSES']","['img_obj', 'obj_classes']",0
+764,['lineitem'],['lineitem'],1
+765,"['client', 'callcenterlogs']",['client'],0
+766,"['callcenterlogs', 'client', 'district', 'state']","['state', 'callcenterlogs']",0
+767,"['patients', 'conditions']",['conditions'],0
+768,['Order Details'],['orders'],0
+769,"['movie_cast', 'gender']",['person'],0
+770,['Award'],"['award', 'person']",0
+771,"['TransactionHistory', 'Product']","['salesorderheader', 'transactionhistory']",0
+772,['Credit'],['credit'],0
+773,"['players', 'player_allstar']",['player_allstar'],0
+774,"['u2base', 'users']",['users'],0
+775,"['TeamsSC', 'Teams']","['teams', 'teamssc', 'seriespost']",0
+776,"['Sales Orders', 'Customers']","['customers', 'sales orders']",0
+777,"['patients', 'encounters']",['encounters'],0
+778,"['Master', 'AwardsPlayers']",['goalies'],0
+779,"['customer', 'nation']","['customer', 'nation']",1
+780,"['Award', 'Character_Award']",['Character_award'],0
+781,"['unemployed', 'longest_absense_from_school']","['unemployed', 'longest_absense_from_school']",1
+782,['Country'],"['country', 'countrynotes']",0
+783,"['filed_for_bankrupcy', 'male']","['filed_for_bankrupcy', 'male']",1
+784,"['rootbeer', 'rootbeerbrand']",['rootbeerbrand'],0
+785,"['Award', 'Credit', 'Episode', 'Person']","['credit', 'person']",0
+786,"['movie', 'characters']","['movie', 'characters']",1
+787,"['Episode', 'Keyword']","['episode', 'keyword']",0
+788,"['SeasonStatus', 'PlayerInfo']","['seasonstatus', 'playerinfo']",0
+789,['coaches'],['coaches'],1
+790,"['Business', 'Reviews']",['business'],0
+791,"['Customers', 'Sales Orders']","['sales orders', 'customers']",0
+792,['university_year'],['university_year'],1
+793,['Country'],"['country', 'city']",0
+794,"['Employees', 'Orders']","['employees', 'orders']",0
+795,"['university_year', 'university']","['university', 'university_year']",1
+796,['Products'],['products'],0
+797,"['historical', 'historical-terms']","['historical', 'historical-terms', 'social-media']",1
+798,['lineitem'],['lineitem'],1
+799,"['Recipe', 'Nutrition']","['recipe', 'nutrition']",0
+800,"['height_info', 'PlayerInfo']","['height_info', 'playerinfo']",0
+801,"['Award', 'Character_Award']","['credit', 'award', 'person']",0
+802,['District'],['district'],0
+803,"['rootbeer', 'transaction', 'rootbeerbrand']","['rootbeerbrand', 'rootbeer', 'transaction']",1
+804,"['rootbeer', 'rootbeerbrand']","['rootbeerbrand', 'transaction']",1
+805,"['university', 'country']","['university', 'country']",1
+806,"['rootbeer', 'location']","['location', 'rootbeer']",1
+807,"['Categories', 'Business_Categories']","['business_categories', 'categories']",0
+808,['employees'],['employees'],1
+809,"['Business', 'Business_Attributes', 'Attributes']","['business_attributes', 'attributes', 'business']",0
+810,"['address', 'customer', 'city']","['address', 'customer']",0
+811,['game'],"['game', 'game_publisher', 'game_platform']",1
+812,"['book', 'book_author', 'author', 'order_line']","['order_line', 'book', 'book_author', 'author']",1
+813,"['Umpire', 'Country']","['country', 'umpire']",0
+814,['Method'],['method'],0
+815,"['Employees', 'EmployeeTerritories']",['employees'],0
+816,"['works', 'chapters']","['works', 'chapters']",1
+817,"['orders', 'customer']","['orders', 'customer']",1
+818,"['Orders', 'Shippers']","['orders', 'shippers']",0
+819,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+820,"['Orders', 'Shippers']","['orders', 'shippers']",0
+821,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+822,"['games', 'games_competitor', 'person']","['games', 'games_competitor']",0
+823,"['coins', 'historical']","['historical', 'coins']",1
+824,"['Solution', 'Method']","['solution', 'method', 'repo']",0
+825,"['words', 'biwords']","['words', 'biwords', 'pages_words']",1
+826,"['customer', 'address']",['customer'],0
+827,"['Umpire', 'Country']","['player', 'umpire']",0
+828,"['Indicators', 'Country']","['country', 'countrynotes', 'indicators']",0
+829,"['players', 'players_teams']",['player_allstar'],0
+830,"['geo_mountain', 'country']","['mountain', 'country']",0
+831,['ProductVendor'],"['productvendor', 'vendor']",0
+832,"['movie', 'movie_genres', 'genre']","['movie', 'movie_genres', 'genre']",1
+833,"['movie', 'movie_languages', 'language']","['movie', 'country', 'movie_company', 'production_country']",0
+834,"['categories', 'podcasts', 'reviews']","['podcasts', 'categories']",0
+835,"['trip', 'weather']","['weather', 'trip']",1
+836,"['weather', 'relation']","['weather', 'relation']",1
+837,"['rootbeer', 'rootbeerbrand']",['rootbeerbrand'],0
+838,['Users'],"['reviews', 'users']",0
+839,"['genre', 'game']",['genre'],0
+840,"['phone_brand_device_model2', 'gender_age']",['phone_brand_device_model2'],0
+841,"['film', 'film_category', 'category']","['film_text', 'film']",0
+842,"['chapters', 'paragraphs']","['works', 'paragraphs']",0
+843,"['orderdetails', 'orders']",['orders'],0
+844,['IMG_OBJ'],['img_obj'],0
+845,"['SalesPerson', 'SalesTerritory']","['salesterritory', 'salespersonquotahistory']",0
+846,"['games_city', 'city', 'games']","['games_city', 'city']",1
+847,"['Answer', 'Survey']",['survey'],0
+848,"['Teams', 'Coaches', 'Master']","['awardscoaches', 'teams']",0
+849,"['establishment', 'inspection', 'violation']","['inspection', 'violation']",0
+850,"['Products', 'Sales']","['sales', 'products']",0
+851,"['Employees', 'EmployeeTerritories']",['employees'],0
+852,['university_year'],['university_year'],1
+853,"['ProductVendor', 'Vendor']","['productvendor', 'vendor', 'product', 'productlistpricehistory']",0
+854,"['Answer', 'Question']",['answer'],0
+855,"['movies', 'ratings']",['movies'],0
+856,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+857,['enlist'],['enlist'],1
+858,"['phone_brand_device_model2', 'gender_age']",['phone_brand_device_model2'],0
+859,['director'],"['movies_total_gross', 'director']",1
+860,"['conditions', 'patients']","['conditions', 'patients']",1
+861,"['Indicators', 'Country']","['country', 'indicators']",0
+862,"['SeasonStatus', 'PlayerInfo']","['seasonstatus', 'playerinfo']",0
+863,"['Player', 'Player_Match', 'Match']","['player', 'win_by', 'match']",0
+864,"['nation', 'customer', 'region']","['customer', 'nation', 'region']",1
+865,"['MenuItem', 'MenuPage']","['dish', 'menuitem']",0
+866,"['Recipe', 'Nutrition']","['quantity', 'recipe', 'ingredient']",0
+867,"['PlayerInfo', 'height_info']","['height_info', 'playerinfo']",0
+868,['Business'],['reviews'],0
+869,"['Business_Hours', 'Business', 'Business_Categories', 'Categories']","['business_hours', 'business', 'business_categories', 'categories']",0
+870,['ProductSubcategory'],['ProductSubcategory'],1
+871,['Order Details'],"['orders', 'orderdetails']",0
+872,['movies_total_gross'],['movies_total_gross'],1
+873,"['Product', 'ProductCostHistory']","['productcategory', 'productdescriptionculture']",0
+874,"['lineitem', 'part']","['lineitem', 'part']",1
+875,['incidents'],"['incidents', 'subjects']",1
+876,"['ProductReview', 'Product']","['product', 'productdescription', 'productdescriptionculture', 'productcategory', 'productcategoryproductdescriptionculture']",0
+877,"['Solution', 'Method']","['solution', 'method']",0
+878,"['rootbeerbrand', 'rootbeerreview']","['rootbeerreview', 'rootbeerbrand']",1
+879,"['payment', 'customer']","['payment', 'customer']",1
+880,"['Person', 'SalesOrderHeader']","['salesperson', 'salesorderheader']",0
+881,"['Episode', 'Credit']","['credit', 'episode']",0
+882,"['Business', 'Business_Categories', 'Categories']","['business_categories', 'categories']",0
+883,['movies'],['movies'],1
+884,['film'],['film'],1
+885,"['label_categories', 'app_labels', 'app_events']","['app_all', 'app_labels', 'events', 'label_categories']",1
+886,"['Attributes', 'Business_Attributes', 'Business']","['business_attributes', 'business']",0
+887,"['location', 'generalinfo']","['location', 'generalinfo']",1
+888,"['state', 'zip_data']","['state', 'zip_data']",1
+889,['Airlines'],"['airlines', 'air carriers']",0
+890,"['products', 'orderdetails']","['products', 'productlines']",0
+891,"['Ball_by_Ball', 'Player']","['player', 'player_match', 'match']",0
+892,"['IMG_OBJ_att', 'ATT_CLASSES', 'IMG_OBJ', 'OBJ_CLASSES']","['ATT_CLASSES', 'OBJ_CLASSES', 'IMG_obj', 'img_obj_att']",1
+893,"['BusinessEntityAddress', 'AddressType', 'Address']","['address', 'addresstype']",0
+894,['generalinfo'],"['generalinfo', 'location']",1
+895,"['works', 'chapters', 'paragraphs', 'characters']","['works', 'characters']",0
+896,"['customer', 'nation']","['customer', 'nation']",1
+897,"['RA', 'prof']","['prof', 'ra']",0
+898,"['Repo', 'Solution']",['repo'],0
+899,['region_sales'],"['region', 'region_sales']",1
+900,"['rootbeer', 'rootbeerbrand', 'geolocation']","['rootbeerbrand', 'rootbeer', 'transaction']",0
+901,"['institution_details', 'state_sector_grads']","['institution_details', 'state_sector_grads']",1
+902,['Master'],['goalies'],0
+903,['trip'],"['trip', 'station']",1
+904,"['establishment', 'inspection']","['inspection', 'establishment']",1
+905,"['FBI_Code', 'Crime', 'Community_Area']","['crime', 'fbi_code', 'community_area']",0
+906,['coaches'],"['awards_coaches', 'coaches']",1
+907,"['PaperAuthor', 'Paper']","['paper', 'paperauthor']",0
+908,"['actor', 'film_actor', 'film']","['actor', 'film_actor']",1
+909,"['Business_Hours', 'Business', 'Business_Categories', 'Categories']","['business_hours', 'business']",0
+910,"['Sales', 'Products']","['products', 'sales']",0
+911,"['student', 'registration', 'course']","['course', 'registration', 'student']",1
+912,"['PaperAuthor', 'Paper']","['paper', 'author', 'paperauthor']",0
+913,['enlist'],['enlist'],1
+914,"['payment', 'customer']","['rental', 'customer']",0
+915,['players_teams'],"['players_teams', 'teams']",1
+916,"['zip_data', 'country']","['area_code', 'country']",0
+917,"['Neighborhood', 'Community_Area']","['neighborhood', 'community_area']",0
+918,"['customer', 'shipment', 'driver']","['customer', 'shipment', 'driver']",1
+919,"['relation', 'sales_in_weather', 'weather']","['weather', 'relation', 'sales_in_weather']",1
+920,"['state', 'country']","['state', 'zip_data']",0
+921,"['donations', 'projects']",['donations'],0
+922,"['label_categories', 'app_labels']",['app_labels'],0
+923,"['noc_region', 'person_region', 'person']","['person_region', 'noc_region']",1
+924,"['Customers', 'Demog']","['demog', 'customers']",0
+925,"['sales_in_weather', 'relation', 'weather']","['weather', 'relation', 'sales_in_weather']",1
+926,"['Author', 'PaperAuthor', 'Paper']","['paperAuthor', 'paper']",0
+927,"['Indicators', 'Country']","['country', 'countrynotes', 'indicators']",0
+928,"['ProductVendor', 'Product', 'Vendor']","['productcosthistory', 'product']",0
+929,"['actor', 'film_actor', 'film']","['actor', 'film_actor', 'film']",1
+930,"['Products', 'Order Details']","['products', 'orderdetails']",0
+931,"['Categories', 'Business_Categories', 'Business']","['business', 'business_categories', 'categories']",0
+932,"['Country', 'CountryNotes']","['countrynotes', 'country']",0
+933,"['orders', 'customers']","['orders', 'customers']",1
+934,"['game_publisher', 'publisher']","['game_publisher', 'publisher']",1
+935,"['book', 'book_language']","['book', 'book_language']",1
+936,['businesses'],['businesses'],1
+937,"['movies', 'ratings']","['movies', 'ratings']",1
+938,"['works', 'chapters']","['works', 'chapters']",1
+939,"['players', 'players_teams', 'teams']","['players_teams', 'awards_players']",1
+940,['Award'],['award'],0
+941,"['book', 'order_line', 'cust_order', 'customer']","['order_line', 'cust_order', 'customer']",0
+942,"['users', 'u2base']","['movies', 'u2base']",0
+943,['voice-actors'],"['voice-actors', 'characters']",1
+944,"['Orders', 'Shippers']","['orders', 'shippers']",0
+945,['Employee'],['jobcandidate'],0
+946,"['Master', 'AwardsPlayers']","['awardsplayers', 'teams']",0
+947,"['Employees', 'Sales']","['sales', 'employees']",0
+948,"['establishment', 'inspection', 'violation', 'inspection_point']","['inspection', 'establishment']",0
+949,"['words', 'pages_words', 'pages']","['words', 'pages', 'pages_words']",1
+950,"['rootbeerbrand', 'rootbeerreview']","['rootbeerbrand', 'rootbeerreview']",1
+951,"['movie', 'characters', 'actor']","['actor', 'characters']",0
+952,"['director', 'movies_total_gross']","['characters', 'director']",0
+953,['WorkOrderRouting'],['location'],0
+954,"['customer', 'nation']","['customer', 'nation']",1
+955,"['customer', 'rental', 'inventory', 'film']","['film', 'inventory', 'customer', 'rental']",1
+956,"['rootbeer', 'transaction']","['transaction', 'rootbeer']",1
+957,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+958,"['games', 'games_competitor', 'person', 'person_region', 'noc_region']","['person_region', 'games', 'noc_region']",0
+959,"['Master', 'Goalies']","['goalies', 'goaliessc', 'goaliesshootout', 'scoring', 'scoringsc', 'scoringshooutout', 'scoringsup']",0
+960,"['Player_Match', 'Team', 'Player']","['player', 'team']",0
+961,"['film_actor', 'film_category', 'category', 'actor']","['film_category', 'category']",1
+962,"['patients', 'conditions']",['conditions'],0
+963,"['awards_coaches', 'coaches', 'teams']","['awards_coaches', 'coaches', 'teams']",1
+964,"['generalinfo', 'location']","['location', 'generalinfo']",1
+965,['app_events'],['app_all'],0
+966,"['reviews', 'podcasts']","['reviews', 'podcasts']",1
+967,['Elite'],"['elite', 'years']",0
+968,"['current', 'current-terms']","['current', 'historical']",0
+969,"['student', 'registration', 'course']","['student', 'ra', 'course', 'registration']",1
+970,"['avoid', 'zip_data']","['state', 'alias', 'zip_data']",0
+971,"['establishment', 'inspection', 'violation']","['inspection', 'establishment']",0
+972,"['twitter', 'location']","['twitter', 'location']",1
+973,['pages'],['pages'],1
+974,['Method'],['method'],0
+975,"['film', 'film_category', 'category']","['film_text', 'film_category', 'category']",1
+976,"['rootbeerbrand', 'rootbeerreview']","['rootbeerreview', 'rootbeerbrand']",1
+977,"['noc_region', 'person_region', 'person']","['person_region', 'person', 'noc_region']",1
+978,"['Person', 'Award']","['award', 'person']",0
+979,['incidents'],"['incidents', 'subjects']",1
+980,"['Air Carriers', 'Airlines']","['airlines', 'air carriers']",0
+981,"['Vendor', 'BusinessEntity']","['creditRating', 'person']",0
+982,"['Categories', 'Business_Categories', 'Business']","['reviews', 'business_categories', 'categories']",0
+983,['PurchaseOrderHeader'],['salesorderheader'],0
+984,['trip'],"['trip', 'status']",1
+985,['Credit'],['credit'],0
+986,"['phone_brand_device_model2', 'gender_age']","['phone_brand_device_model2', 'app_all']",0
+987,"['inspections', 'businesses']",['businesses'],0
+988,"['Attributes', 'Business_Attributes']",['business_attributes'],0
+989,"['shipment', 'driver']","['customer', 'shipment']",0
+990,['Regions'],"['regions', 'store locations']",0
+991,"['Vendor', 'ProductVendor']","['productvendor', 'product']",0
+992,['Country'],"['countrynotes', 'country']",0
+993,"['film_actor', 'actor', 'film']","['film_text', 'actor', 'film_actor']",1
+994,"['paragraphs', 'chapters']","['characters', 'paragraphs']",1
+995,"['inspection', 'employee']","['inspection', 'employee']",1
+996,['Country'],['country'],0
+997,['Sales Orders'],['sales orders'],0
+998,"['Product', 'ProductListPriceHistory']","['productlistpricehistory', 'product']",0
+999,"['employee', 'jobs']",['employee'],0
+1000,"['movie', 'characters', 'actor']","['characters', 'actor']",0
+1001,"['state', 'country']","['state', 'zip_data']",0
+1002,"['orders', 'customers']","['orders', 'offices']",0
+1003,['Address'],"['BusinessEntityAddress', 'Address']",1
+1004,"['prof', 'RA', 'student']","['prof', 'ra', 'student']",0
+1005,"['EmployeeDepartmentHistory', 'Department']","['EmployeeDepartmentHistory', 'Department']",1
+1006,"['PurchaseOrderHeader', 'PurchaseOrderDetail']",['salesorderheader'],0
+1007,"['social-media', 'current']","['historical', 'historical-terms', 'social-media']",0
+1008,"['actor', 'film_actor', 'film']","['actor', 'film_actor', 'film', 'rental']",1
+1009,"['east_superstore', 'product']","['product', 'east_superstore']",1
+1010,"['ProductReview', 'Product']","['product', 'productreview']",0
+1011,['langs'],['pages'],0
+1012,"['country', 'city', 'address', 'customer']","['country', 'customer']",0
+1013,"['employee', 'inspection', 'establishment']","['inspection', 'establishment', 'employee']",1
+1014,['Shippers'],['shippers'],0
+1015,"['products', 'orderdetails', 'orders', 'customers', 'employees']","['employees', 'customers', 'orders', 'products', 'orderdetails']",1
+1016,"['course', 'taughtBy', 'person']","['course', 'taughtby']",0
+1017,"['works', 'chapters']","['works', 'chapters']",1
+1018,"['movie', 'characters']","['characters', 'movie']",1
+1019,['current'],['current'],1
+1020,"['games_competitor', 'games_city', 'city']","['games_city', 'city', 'games']",0
+1021,"['customer', 'address', 'city', 'country']","['customer', 'address', 'city', 'country']",1
+1022,"['cars', 'trains']","['cars', 'trains']",1
+1023,"['noc_region', 'person_region', 'person']","['person_region', 'noc_region']",1
+1024,['generalinfo'],"['location', 'generalinfo']",1
+1025,"['country', 'religion']","['religion', 'country']",1
+1026,"['customer', 'nation']","['customer', 'nation']",1
+1027,"['movie', 'movie_genres', 'genre']","['movie', 'movie_genres', 'genre']",1
+1028,"['donations', 'projects']","['donations', 'schools']",0
+1029,"['games', 'games_competitor']","['games', 'games_competitor']",1
+1030,"['SeasonStatus', 'PlayerInfo']","['seasonstatus', 'playerinfo']",0
+1031,"['book', 'book_author', 'author', 'publisher']","['book', 'author', 'book_author', 'publisher']",1
+1032,"['coins', 'historical']","['historical', 'coins']",1
+1033,"['employee', 'jobs']","['employee', 'jobs']",1
+1034,['course'],['course'],1
+1035,['current'],"['historical', 'historical-terms', 'social-media']",0
+1036,"['client', 'events']","['events', 'client']",1
+1037,"['Customers', 'Sales']","['sales', 'products', 'customers']",0
+1038,['Employees'],['employees'],0
+1039,"['Dish', 'MenuItem']",['dish'],0
+1040,"['geographic', 'location']","['location', 'geographic']",1
+1041,"['partsupp', 'lineitem', 'part']","['partsupp', 'supplier']",0
+1042,"['paper', 'content']","['content', 'paper']",1
+1043,"['current', 'current-terms']","['historical', 'historical-terms']",0
+1044,"['location', 'geographic']","['location', 'geographic']",1
+1045,"['Address', 'BusinessEntityAddress']","['businessentity', 'address']",0
+1046,"['IUCR', 'Crime', 'District']","['crime', 'fbi_code']",0
+1047,"['PlayerInfo', 'SeasonStatus']",['seasonstatus'],0
+1048,"['payment', 'customer', 'store']","['payment', 'rental']",0
+1049,['Menu'],"['menupage', 'menu', 'menuitem']",0
+1050,['paper'],['paper'],1
+1051,"['Airports', 'Airlines']",['airlines'],0
+1052,"['course', 'taughtBy']","['taughtby', 'course']",0
+1053,"['Country', 'Indicators']","['country', 'indicators']",0
+1054,"['Goalies', 'Master']","['goalies', 'coaches', 'hof']",0
+1055,"['rootbeer', 'rootbeerbrand', 'location']","['rootbeer', 'rootbeerbrand', 'transaction']",0
+1056,['draft'],['draft'],1
+1057,"['Person', 'Award']",['credit'],0
+1058,"['zip_data', 'zip_congress', 'congress']","['area_code', 'congress']",0
+1059,"['ProductCostHistory', 'Product']","['productcosthistory', 'product']",0
+1060,"['Customers', 'Mailings1_2', 'Demog']","['mailings1_2', 'customers']",0
+1061,"['RA', 'prof']","['prof', 'ra']",0
+1062,"['east_superstore', 'product']","['central_superstore', 'product']",1
+1063,"['violations', 'businesses']","['businesses', 'inspections']",0
+1064,['Indicators'],"['indicators', 'country']",0
+1065,['region_sales'],['region_sales'],1
+1066,"['current', 'current-terms']","['historical', 'historical-terms', 'religion_bio']",0
+1067,['Author'],['author'],0
+1068,"['Episode', 'Vote']","['episode', 'vote']",0
+1069,"['course', 'registration']","['course', 'registration']",1
+1070,"['encounters', 'immunizations']","['immunizations', 'encounters']",1
+1071,"['Business_Categories', 'Categories', 'Business']","['business_categories', 'categories']",0
+1072,"['titles', 'sales']","['sales', 'titles']",1
+1073,"['movies', 'movies2actors']","['movies', 'u2base']",0
+1074,"['Answer', 'Survey']",['survey'],0
+1075,"['population', 'politics']","['country', 'population']",0
+1076,"['Employees', 'EmployeeTerritories']",['customers'],0
+1077,"['current', 'social-media']","['historical', 'historical-terms']",0
+1078,"['historical', 'historical-terms']","['historical', 'historical-terms']",1
+1079,"['IUCR', 'Crime']","['crime', 'iucr']",0
+1080,"['ranking_criteria', 'university_ranking_year']","['university_ranking_year', 'ranking_criteria']",1
+1081,"['institution_details', 'state_sector_details']","['state_sector_details', 'institution_grads']",1
+1082,"['Community_Area', 'Neighborhood']","['neighborhood', 'community_area']",0
+1083,"['Match', 'Team']","['match', 'team']",0
+1084,['director'],['director'],1
+1085,"['actor', 'film_actor', 'film']","['actor', 'film_actor', 'rental']",1
+1086,"['Products', 'Suppliers']","['products', 'suppliers']",0
+1087,"['prof', 'RA', 'student']","['prof', 'ra', 'student']",0
+1088,"['ratings', 'movies']","['ratings', 'movies']",1
+1089,"['generalinfo', 'geographic']",['geographic'],0
+1090,"['shipment', 'driver', 'city']","['city', 'customer']",0
+1091,"['movie', 'characters', 'actor']","['movie', 'actor', 'characters']",1
+1092,"['movie', 'movie_genres', 'genre']","['movie', 'movie_genres', 'genre']",1
+1093,"['customer', 'rental', 'inventory', 'film', 'film_category', 'category']","['film', 'film_category', 'category']",0
+1094,['course'],['course'],1
+1095,"['Recipe', 'Quantity', 'Ingredient', 'Nutrition']","['recipe', 'quantity', 'ingredient']",0
+1096,"['movies', 'ratings']","['movies', 'ratings']",1
+1097,"['PRED_CLASSES', 'IMG_REL']","['pred_classes', 'img_rel']",0
+1098,"['payment', 'customer']","['payment', 'customer']",1
+1099,"['book', 'order_line', 'cust_order', 'customer']","['order_line', 'book', 'customer']",1
+1100,"['registration', 'student', 'course']","['course', 'registration', 'RA']",0
+1101,"['procedures', 'conditions', 'medications']","['conditions', 'procedures', 'medications']",1
+1102,['matchs'],"['matchs', 'divisions']",1
+1103,"['film', 'film_category', 'category']","['film_text', 'film', 'category']",1
+1104,"['immunizations', 'conditions']","['conditions', 'immunizations']",1
+1105,"['film_actor', 'actor']","['actor', 'film_actor']",1
+1106,"['movie', 'characters', 'actor']","['characters', 'movie']",1
+1107,['COUNTry'],['country'],0
+1108,"['current', 'current-terms']","['historical-terms', 'historical', 'social-media']",0
+1109,['Answer'],['answer'],0
+1110,['longest_absense_from_school'],['longest_absense_from_school'],1
+1111,"['patients', 'medications']","['medications', 'encounters', 'patients']",1
+1112,['current'],"['historical', 'historical-terms']",0
+1113,"['Sales Orders', 'Customers']","['sales orders', 'customers']",0
+1114,"['shipment', 'customer']","['shipment', 'customer']",1
+1115,"['Recipe', 'Nutrition']","['recipe', 'nutrition']",0
+1116,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+1117,['current'],"['historical', 'historical-terms', 'social-media']",0
+1118,"['Department', 'EmployeeDepartmentHistory']","['EmployeeDepartmentHistory', 'employee']",1
+1119,"['Answer', 'Survey']",['survey'],0
+1120,"['chapters', 'paragraphs']",['paragraphs'],0
+1121,"['Customers', 'Orders']","['orders', 'customers']",0
+1122,['Master'],['goalies'],0
+1123,"['inspections', 'businesses']",['inspections'],0
+1124,"['Attributes', 'Business_Attributes']",['business_attributes'],0
+1125,"['orders', 'lineitem']","['lineitem', 'orders']",1
+1126,"['Reviews', 'Business_Categories', 'Categories']","['business', 'business_categories', 'categories']",0
+1127,"['Business', 'Reviews']",['business'],0
+1128,"['Employee', 'EmployeePayHistory']","['employee', 'employee pay history']",0
+1129,"['Business', 'Business_Hours', 'Days']","['business', 'days', 'business_Hours']",0
+1130,"['Airports', 'Airlines']",['airlines'],0
+1131,"['data', 'production']","['data', 'production']",1
+1132,"['Footnotes', 'Series']",['indicators'],0
+1133,"['customer', 'shipment', 'city']","['city', 'customer', 'shipment']",1
+1134,"['alias', 'zip_data']","['country', 'alias']",0
+1135,"['Episode', 'Vote']",['vote'],0
+1136,"['city', 'country']","['city', 'country']",1
+1137,"['station', 'trip', 'weather']","['weather', 'station']",0
+1138,"['lineitem', 'orders']","['orders', 'lineitem']",1
+1139,['ProductReview'],"['productreview', 'person']",0
+1140,"['Employees', 'EmployeeTerritories', 'Territories']",['employees'],0
+1141,['Customer and Suppliers by City'],['customers'],0
+1142,['region'],['region'],1
+1143,['characters'],"['characters', 'movies_total_gross']",1
+1144,"['Sales Orders', 'Store Locations']","['store locations', 'sales orders']",0
+1145,"['zip_data', 'state', 'congress']","['state', 'congress']",0
+1146,['country'],"['country', 'city']",1
+1147,['ProductVendor'],['salesorderheader'],0
+1148,"['Country', 'City']","['city', 'country']",0
+1149,"['enlist', 'male']","['enlist', 'male']",1
+1150,"['patients', 'careplans']",['careplans'],0
+1151,['Reviews'],['reviews'],0
+1152,['location'],['location'],1
+1153,"['Answer', 'Question']",['answer'],0
+1154,"['ranking_criteria', 'university_ranking_year']","['university_ranking_year', 'ranking_criteria']",1
+1155,['Air Carriers'],['airlines'],0
+1156,['generalinfo'],['generalinfo'],1
+1157,"['Customers', 'Demog']","['demog', 'customers']",0
+1158,"['IMG_OBJ', 'OBJ_CLASSES']","['img_obj', 'obj_classES']",0
+1159,['customers'],['customers'],1
+1160,"['Paper', 'PaperAuthor']","['paper', 'paperauthor']",0
+1161,"['Employees', 'EmployeeTerritories']",['employees'],0
+1162,"['Products', 'Suppliers']","['products', 'suppliers']",0
+1163,"['employee', 'position']","['position', 'employee']",1
+1164,['pages'],['pages'],1
+1165,"['establishment', 'inspection']","['establishment', 'inspection']",1
+1166,['coaches'],"['awards_coaches', 'coaches']",1
+1167,"['ATT_CLASSES', 'IMG_OBJ_ATT']","['img_obj_att', 'att_class']",0
+1168,"['app_labels', 'label_categories']","['app_labels', 'label_categories']",1
+1169,"['Indicators', 'Series']","['indicators', 'country']",0
+1170,['SalesOrderHeader'],['salesorderheader'],0
+1171,"['data', 'price']","['data', 'price']",1
+1172,"['area_code', 'country', 'state']","['area_code', 'state']",0
+1173,"['Sales Orders', 'Products']","['products', 'sales orders']",0
+1174,['social-media'],"['historical', 'historical-terms', 'social-media']",1
+1175,['SeasonStatus'],"['seasonstatus', 'playerinfo']",0
+1176,"['noc_region', 'person_region', 'person']","['person_region', 'person']",0
+1177,['Answer'],['survey'],0
+1178,['Business'],['business'],0
+1179,['Airlines'],"['airports', 'airlines']",0
+1180,"['Employee', 'Person']",['employee'],0
+1181,['lineitem'],['lineitem'],1
+1182,"['projects', 'donations']","['donations', 'projects']",1
+1183,"['movie', 'movie_genres', 'genre']","['movie', 'genre', 'movie_genres']",1
+1184,"['alias', 'zip_data']","['alias', 'country']",0
+1185,"['movie', 'characters', 'actor']","['movie', 'actor']",0
+1186,"['Episode', 'Credit']","['credit', 'episode', 'person']",0
+1187,"['payments', 'customers']","['orders', 'customers']",0
+1188,"['course', 'taughtBy']","['course', 'taughtby']",0
+1189,"['country', 'language']","['country', 'ethnicGroup']",0
+1190,"['nation', 'customer', 'orders']","['customer', 'orders', 'nation']",1
+1191,"['SpecialOffer', 'SpecialOfferProduct', 'Product']","['productdescription', 'product', 'specialoffer']",0
+1192,['events'],['events'],1
+1193,"['locatedOn', 'island']","['island', 'geo_sea', 'province', 'located', 'locatedOn']",1
+1194,"['Award', 'Episode']","['award', 'episode', 'vote']",0
+1195,['part'],"['part', 'partsupp']",1
+1196,"['patients', 'conditions']","['conditions', 'patients']",1
+1197,['Employees'],['employees'],0
+1198,"['Products', 'Categories']","['products', 'categories']",0
+1199,"['businesses', 'inspections', 'violations']","['businesses', 'inspections']",0
+1200,"['customers', 'rootbeerreview']","['rootbeerreview', 'customers']",1
+1201,['MenuItem'],['menuitem'],0
+1202,['Player'],['player'],0
+1203,['lineitem'],['lineitem'],1
+1204,"['PlayerInfo', 'weight_info']","['weight_info', 'playerinfo']",0
+1205,['university_year'],"['university', 'university_year']",1
+1206,"['app_events', 'events', 'gender_age']","['events', 'gender_age']",0
+1207,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+1208,['longest_absense_from_school'],['longest_absense_from_school'],1
+1209,['Country'],"['country', 'countrynotes']",0
+1210,"['university_year', 'university_ranking_year']",['university_year'],0
+1211,"['ratings', 'movies']","['movies', 'ratings']",1
+1212,"['institution_details', 'state_sector_grads']","['institution_grads', 'state_sector_grads']",0
+1213,"['orders', 'customer']","['orders', 'customer']",1
+1214,['Indicators'],"['country', 'indicators']",0
+1215,"['Store Locations', 'Sales Orders', 'Sales Team', 'Products']","['products', 'sales team', 'store locations', 'sales orders']",0
+1216,"['EmployeePayHistory', 'Employee', 'Person']",['employee'],0
+1217,"['MenuItem', 'MenuPage', 'Menu', 'Dish']","['menupage', 'menu', 'menuitem']",0
+1218,"['Match', 'Player_Match', 'Player']","['player', 'match']",0
+1219,"['Keyword', 'Credit']","['credit', 'episode', 'keyword', 'person']",0
+1220,"['payments', 'customers']",['payments'],0
+1221,"['Employees', 'EmployeeTerritories', 'Territories']",['employees'],0
+1222,"['Airlines', 'Air Carriers']","['airlines', 'air carriers']",0
+1223,['historical'],"['historical', 'historical-terms']",1
+1224,"['CountryNotes', 'Country']","['country', 'series']",0
+1225,"['inspections', 'businesses']","['businesses', 'inspections']",1
+1226,"['conditions', 'all_prevalences']",['conditions'],0
+1227,"['movie', 'movie_genres', 'genre']","['movie_genres', 'genre']",1
+1228,"['characters', 'paragraphs']","['characters', 'paragraphs']",1
+1229,"['Team', 'Match', 'Player_Match', 'Season']","['match', 'team']",0
+1230,"['patients', 'conditions']",['conditions'],0
+1231,['lists'],['lists'],1
+1232,"['SeasonStatus', 'PlayerInfo', 'weight_info']","['weight_info', 'playerinfo']",0
+1233,"['payment', 'rental']","['payment', 'rental']",1
+1234,"['Recipe', 'Quantity', 'Ingredient']","['quantity', 'recipe', 'ingredient']",0
+1235,"['Episode', 'Keyword']","['episode', 'keyword']",0
+1236,"['games_city', 'city', 'games']","['games', 'games_city', 'city']",1
+1237,"['region', 'region_sales']","['region', 'region_sales']",1
+1238,"['orders', 'lineitem']",['lineitem'],0
+1239,"['teams', 'players_teams']",['player_allstar'],0
+1240,"['SalesPerson', 'Person']",['salesperson'],0
+1241,"['label_categories', 'app_labels']","['app_labels', 'label_categories']",1
+1242,"['truck', 'shipment']","['driver', 'shipment']",0
+1243,['enrolled'],"['enrolled', 'person']",1
+1244,"['IMG_OBJ_ATT', 'ATT_CLASSES']","['img_obj_att', 'att_classes']",0
+1245,"['Answer', 'Question']",['answer'],0
+1246,"['BillOfMaterials', 'UnitMeasure']",['ProductCostHistory'],0
+1247,"['sales', 'titles']","['sales', 'titles']",1
+1248,"['country', 'population']","['country', 'population']",1
+1249,"['employee', 'location']","['location', 'employee']",1
+1250,"['employee', 'position']","['position', 'employee']",1
+1251,"['IMG_OBJ', 'OBJ_CLASSES', 'IMG_OBJ_ATT', 'ATT_CLASSES']","['img_obj_att', 'att_classes']",0
+1252,"['players', 'players_teams']",['players'],0
+1253,"['region', 'nation', 'supplier']","['supplier', 'region']",0
+1254,"['weather', 'relation']","['weather', 'relation']",1
+1255,['film_text'],['film_text'],1
+1256,"['film', 'film_category', 'category']","['film_category', 'category']",1
+1257,"['all_prevalences', 'conditions', 'encounters', 'careplans']","['careplans', 'all_prevalences']",0
+1258,"['patients', 'encounters']","['encounters', 'patients']",1
+1259,['PaperAuthor'],['author'],0
+1260,"['cars', 'trains']","['cars', 'trains']",1
+1261,"['longest_absense_from_school', 'disabled']","['disabled', 'longest_absense_from_school']",1
+1262,['orders'],['orders'],1
+1263,"['Employees', 'Orders']","['employees', 'orders']",0
+1264,"['Ward', 'Crime']",['ward'],0
+1265,"['film', 'film_actor', 'actor']","['actor', 'film_actor', 'film']",1
+1266,['series_post'],"['teams', 'series_post']",1
+1267,"['Credit', 'Person', 'Episode']","['credit', 'person']",0
+1268,['lineitem'],['orders'],0
+1269,"['works', 'chapters', 'paragraphs', 'characters']","['characters', 'works', 'chapters', 'paragraphs']",1
+1270,"['players', 'player_allstar']",['player_allstar'],0
+1271,"['Community_Area', 'Crime']","['crime', 'community_area']",0
+1272,"['state', 'country']","['state', 'cbsa']",0
+1273,"['Player', 'Country']","['player', 'country']",0
+1274,['torrents'],['torrents'],1
+1275,"['Indicators', 'Country']","['country', 'indicators']",0
+1276,"['data', 'price']","['data', 'price']",1
+1277,['voice-actors'],['voice-actors'],1
+1278,"['Season', 'Match', 'Player_Match', 'Player', 'Team']","['player', 'season', 'win_by']",0
+1279,"['country', 'borders']","['country', 'borders']",1
+1280,"['coins', 'historical']","['historical', 'coins']",1
+1281,"['ProductReview', 'Product']","['productreview', 'product']",0
+1282,"['Master', 'AwardsCoaches']","['awardscoaches', 'coaches']",0
+1283,"['congress', 'zip_congress']","['state', 'congress', 'zip_data']",1
+1284,['orders'],"['orders', 'lineitem']",1
+1285,"['Customers', 'Demog']","['demog', 'customers']",0
+1286,"['coins', 'historical']","['historical', 'coins']",1
+1287,"['university', 'university_ranking_year', 'country']","['university_ranking_year', 'university', 'country']",1
+1288,"['players_teams', 'player_allstar']","['players_teams', 'player_allstar']",1
+1289,"['university_year', 'university']",['university_year'],0
+1290,"['Country', 'CountryNotes', 'Series']","['country', 'countrynotes', 'indicators']",0
+1291,"['patients', 'encounters']","['patients', 'encounters']",1
+1292,"['orderdetails', 'products']","['products', 'productlines']",0
+1293,"['person', 'games_competitor']","['person', 'games_competitor']",1
+1294,"['Neighborhood', 'Community_Area']","['neighborhood', 'community_area']",0
+1295,"['establishment', 'inspection']","['inspection', 'establishment']",1
+1296,"['no_payment_due', 'enlist']","['enlist', 'no_payment_due']",1
+1297,"['Repo', 'Solution']","['solution', 'repo']",0
+1298,['film'],['film'],1
+1299,"['IUCR', 'Crime', 'District']","['crime', 'district']",0
+1300,"['river', 'located', 'city']","['river', 'located', 'locatedOn']",0
+1301,"['production', 'country']","['data', 'country']",0
+1302,"['Customers', 'Sales Orders']","['sales orders', 'customers']",0
+1303,"['establishment', 'inspection']","['inspection', 'establishment']",1
+1304,"['male', 'disabled']","['disabled', 'male']",1
+1305,"['south_superstore', 'product']","['product', 'south_superstore']",1
+1306,"['Player', 'Country']",['country'],0
+1307,['country'],"['country', 'city']",1
+1308,"['Person', 'Credit']","['credit', 'episode']",0
+1309,"['Episode', 'Vote']",['episode'],0
+1310,"['Paper', 'Conference']","['paper', 'conference']",0
+1311,"['Award', 'Credit']","['person', 'award', 'credit']",0
+1312,"['partsupp', 'lineitem', 'part', 'supplier']","['part', 'partsupp', 'supplier', 'lineitem']",1
+1313,['City'],"['city', 'country']",0
+1314,"['Match', 'Team']","['match', 'team']",0
+1315,"['Country', 'Indicators']",['indicators'],0
+1316,"['keyword', 'movie_keywords']","['movie_keywords', 'keyword']",1
+1317,"['works', 'chapters']","['works', 'characters']",0
+1318,"['medications', 'patients']","['medications', 'patients']",1
+1319,['district'],"['district', 'state']",1
+1320,['rootbeerbrand'],['rootbeerbrand'],1
+1321,"['IMG_OBJ', 'OBJ_CLASSES']","['img_obj', 'obj_classES']",0
+1322,"['supplier', 'nation']","['supplier', 'nation']",1
+1323,"['Customers', 'Demog']","['demog', 'customers']",0
+1324,"['Customers', 'Sales']","['employees', 'customers']",0
+1325,"['Airports', 'Airlines']","['airlines', 'air carriers']",0
+1326,"['Products', 'Suppliers']","['products', 'suppliers']",0
+1327,"['Answer', 'Question']",['answer'],0
+1328,['Community_Area'],['district'],0
+1329,"['Customers', 'Demog']",['demog'],0
+1330,"['generalinfo', 'location']","['location', 'generalinfo']",1
+1331,"['label_categories', 'app_labels']",['label_categories'],0
+1332,"['titles', 'publishers']","['titles', 'publishers']",1
+1333,"['data', 'production']",['data'],0
+1334,"['playstore', 'user_reviews']",['playstore'],0
+1335,"['trip', 'station']","['trip', 'station']",1
+1336,"['Categories', 'Business_Categories', 'Business']","['business_categories', 'categories']",0
+1337,['game'],['game'],1
+1338,"['twitter', 'location']","['twitter', 'location']",1
+1339,"['Customers', 'Sales']","['sales', 'customers']",0
+1340,['Award'],['award'],0
+1341,['orders'],['orders'],1
+1342,"['Business', 'Business_Categories', 'Categories']","['business_categories', 'categories']",0
+1343,"['awards_players', 'players']","['awards_players', 'players']",1
+1344,"['Credit', 'Vote']","['credit', 'episode']",0
+1345,"['Teams', 'TeamsSC']",['combinedshutouts'],0
+1346,['Employees'],['employees'],0
+1347,"['essays', 'projects']",['projects'],0
+1348,"['ratings', 'movies']","['movies', 'ratings']",1
+1349,"['players_teams', 'teams']","['player_allstar', 'players', 'teams']",1
+1350,"['CountryLanguage', 'Country']","['countrylanguage', 'country']",0
+1351,"['actors', 'movies2actors', 'movies']","['movies', 'movies2actors', 'actors']",1
+1352,"['weather', 'relation']","['weather', 'relation']",1
+1353,"['ratings', 'movies']","['movies', 'ratings', 'lists_users', 'ratings_users']",1
+1354,"['client', 'events']","['client', 'callcenterlogs']",0
+1355,"['shipment', 'truck']","['shipment', 'truck']",1
+1356,['Indicators'],"['indicators', 'country']",0
+1357,"['Repo', 'Solution']","['solution', 'repo']",0
+1358,"['area_code', 'zip_data']","['zip_data', 'area_code']",1
+1359,"['PlayerInfo', 'SeasonStatus']","['seasonstatus', 'playerinfo']",0
+1360,"['Air Carriers', 'Airlines']","['airlines', 'air carriers']",0
+1361,"['Products', 'Suppliers']","['products', 'suppliers']",0
+1362,"['gender_age', 'phone_brand_device_model2']","['gender_age', 'phone_brand_device_model2']",1
+1363,"['Country', 'CountryNotes']","['series', 'country']",0
+1364,['pages'],['pages'],1
+1365,"['area_code', 'country', 'zip_data']","['area_code', 'country']",0
+1366,"['client', 'callcenterlogs']","['client', 'reviews']",0
+1367,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+1368,"['torrents', 'tags']","['torrents', 'tags']",1
+1369,"['categories', 'podcasts']","['podcasts', 'categories']",1
+1370,['weather'],['weather'],1
+1371,['film'],['film_text'],1
+1372,['coaches'],['coaches'],1
+1373,"['movie_cast', 'person', 'gender']","['movie_cast', 'person', 'gender']",1
+1374,"['employees', 'offices']","['employees', 'offices']",1
+1375,"['events_relevant', 'app_events_relevant', 'app_labels', 'label_categories']","['events', 'events_relevant', 'label_categories']",0
+1376,"['cars', 'trains']","['trains', 'cars']",1
+1377,"['movies', 'ratings']","['movies', 'ratings', 'lists_users']",1
+1378,"['ratings', 'movies']","['ratings', 'movies']",1
+1379,"['customer', 'shipment']",['customer'],0
+1380,"['Employee', 'Person']","['person', 'store', 'businessentitycontact']",0
+1381,"['unemployed', 'no_payment_due']","['unemployed', 'no_payment_due']",1
+1382,"['paragraphs', 'chapters']","['chapters', 'paragraphs']",1
+1383,"['establishment', 'inspection']","['inspection', 'establishment']",1
+1384,['customer'],['customer'],1
+1385,"['ratings', 'movies']","['movies', 'ratings']",1
+1386,"['film_category', 'category', 'film', 'inventory', 'customer', 'rental']","['film_text', 'actor', 'rental', 'film', 'film_actor', 'category']",0
+1387,['Country'],"['country', 'countrynotes']",0
+1388,"['Journal', 'Paper']","['journal', 'paper']",0
+1389,"['words', 'biwords']","['words', 'pages_words']",0
+1390,"['Answer', 'Question']","['question', 'answer']",0
+1391,"['movie', 'movie_languages', 'language']","['movie', 'language']",0
+1392,['Player'],['player'],0
+1393,"['longest_absense_from_school', 'unemployed', 'disabled']","['unemployed', 'disabled', 'longest_absense_from_school']",1
+1394,"['draft', 'players']",['players'],0
+1395,"['area_code', 'zip_data']","['zip_data', 'area_code']",1
+1396,"['truck', 'shipment']","['shipment', 'truck']",1
+1397,"['TeamsHalf', 'Teams']","['teamshalf', 'teams']",0
+1398,['region_sales'],['region_sales'],1
+1399,['book'],['book'],1
+1400,"['university_year', 'university']","['university', 'university_year']",1
+1401,"['employee', 'location', 'position']","['position', 'employee']",0
+1402,"['Products', 'Order Details']","['products', 'orderdetails']",0
+1403,['biwords'],"['biwords', 'langs']",1
+1404,"['PlayerInfo', 'height_info']","['height_info', 'playerinfo']",0
+1405,['Sales Orders'],['sales orders'],0
+1406,"['actor', 'film_actor', 'film']","['actor', 'film_actor']",1
+1407,['Country'],['countrynotes'],0
+1408,"['IMG_REL', 'IMG_OBJ']","['img_obj', 'pred_classes']",0
+1409,"['location', 'generalinfo']",['location'],0
+1410,"['Master', 'AwardsPlayers']","['awardsplayers', 'master']",0
+1411,"['TeamVsTeam', 'Teams']","['teamvsTeam', 'teams']",0
+1412,['Master'],"['awardsplayers', 'teams']",0
+1413,"['Team', 'Match', 'Venue']","['match', 'venue', 'team']",0
+1414,"['Player', 'Batting_Style']",['player'],0
+1415,"['economy', 'geo_mountain']","['country', 'economy', 'geo_mountain', 'mountain']",1
+1416,"['Repo', 'Solution']","['solution', 'repo']",0
+1417,"['region', 'region_sales', 'game_platform', 'platform']","['region', 'region_sales', 'game_publisher', 'game_platform', 'publisher']",1
+1418,"['country', 'province', 'city', 'economy']","['city', 'economy']",0
+1419,"['customer', 'nation']","['customer', 'nation']",1
+1420,"['players', 'players_teams']",['player_allstar'],0
+1421,['gender_age'],['gender_age'],1
+1422,"['characters', 'paragraphs']",['paragraphs'],0
+1423,['awards_players'],['awards_players'],1
+1424,['Ward'],['ward'],0
+1425,"['orderdetails', 'orders']",['orders'],0
+1426,"['game_publisher', 'publisher', 'game', 'game_platform', 'platform']","['platform', 'game_platform']",0
+1427,['events'],['client'],0
+1428,"['Employees', 'EmployeeTerritories']",['employees'],0
+1429,"['institution_details', 'institution_grads']",['institution_grads'],0
+1430,"['country', 'zip_data']",['country'],0
+1431,"['Product', 'ProductReview']","['product', 'productcosthistory']",0
+1432,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+1433,['businesses'],['businesses'],1
+1434,"['Repo', 'Solution']","['solution', 'repo']",0
+1435,['Match'],['outcome'],0
+1436,['Community_Area'],"['community_area', 'district']",0
+1437,"['Repo', 'Solution']","['solution', 'repo']",0
+1438,"['projects', 'donations']","['donations', 'projects']",1
+1439,"['Airports', 'Airlines', 'Air Carriers']","['airlines', 'air carriers']",0
+1440,"['shipment', 'city']","['city', 'shipment']",1
+1441,"['central_superstore', 'product']",['central_superstore'],0
+1442,['Goalies'],['teamsPost'],0
+1443,['Customers'],['customers'],0
+1444,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+1445,"['customer', 'nation']","['customer', 'nation']",1
+1446,"['Compliments', 'Users_Compliments']","['compliments', 'users_compliments']",0
+1447,"['customers', 'transaction']","['transaction', 'customers']",1
+1448,['language'],"['country', 'language']",1
+1449,"['Suppliers', 'Products', 'Categories']","['products', 'suppliers', 'categories']",0
+1450,"['Products', 'Sales']",['products'],0
+1451,"['no_payment_due', 'person', 'male']","['person', 'no_payment_due', 'male']",1
+1452,"['PRED_CLASSES', 'IMG_REL']","['PRED_CLasSES', 'img_rel']",0
+1453,"['Master', 'Goalies', 'Teams']","['awardsplayers', 'teams', 'teamvsteam']",0
+1454,"['games_city', 'city']","['games_city', 'city']",1
+1455,"['characters', 'voice-actors']",['voice-actors'],0
+1456,"['customers', 'employees']","['employees', 'customers']",1
+1457,['customer'],['customer'],1
+1458,"['customers', 'orders']","['orders', 'customers']",1
+1459,['City'],['city'],0
+1460,['customer'],['customer'],1
+1461,"['players', 'awards_players']",['awards_players'],0
+1462,"['words', 'pages_words', 'pages']",['pages'],0
+1463,"['area_code', 'zip_data']","['state', 'area_code']",0
+1464,"['pages', 'pages_words', 'words']","['words', 'pages', 'pages_words']",1
+1465,"['data', 'production', 'country']","['data', 'country']",0
+1466,"['employee', 'inspection']","['inspection', 'employee']",1
+1467,"['employee', 'location']","['employee', 'location']",1
+1468,"['players', 'awards_players']",['awards_players'],0
+1469,['events'],['callcenterlogs'],0
+1470,"['driver', 'shipment', 'city']","['driver', 'city', 'shipment']",1
+1471,"['Person', 'Award']","['award', 'person']",0
+1472,"['current', 'current-terms']",['historical-terms'],0
+1473,"['orders', 'lineitem']","['lineitem', 'supplier']",0
+1474,"['FBI_Code', 'Crime']","['crime', 'fbi_code']",0
+1475,['Regions'],['regions'],0
+1476,"['Customers', 'Orders']","['orders', 'customers']",0
+1477,"['nation', 'customer', 'region']","['customer', 'nation', 'region']",1
+1478,"['Community_Area', 'Crime', 'Ward']","['ward', 'community_area']",0
+1479,"['generalinfo', 'geographic']","['location', 'geographic']",0
+1480,"['customer', 'shipment', 'city']","['customer', 'city', 'shipment']",1
+1481,"['person_region', 'person']","['person_region', 'person']",1
+1482,"['Journal', 'Paper']","['journal', 'paper']",0
+1483,"['essays', 'donations']","['donations', 'essays']",1
+1484,"['Product', 'ShoppingCartItem']","['productlistpricehistory', 'salesorderdetail']",0
+1485,"['Reviews', 'Users']",['reviews'],0
+1486,"['Customers', 'Sales Orders', 'Products']","['products', 'sales orders', 'customers']",0
+1487,"['Sales Orders', 'Sales Team']","['sales team', 'store locations', 'sales orders']",0
+1488,['IMG_OBJ'],['img_obj'],0
+1489,"['Days', 'Checkins']","['business_hours', 'days']",0
+1490,['Customers'],['customers'],0
+1491,"['categories', 'podcasts']","['podcasts', 'categories']",1
+1492,"['customers', 'transaction', 'rootbeer', 'rootbeerbrand']","['rootbeerbrand', 'transaction', 'customers']",1
+1493,"['projects', 'donations']","['donations', 'schools']",0
+1494,"['characters', 'actor']","['actor', 'characters']",1
+1495,['Vote'],['vote'],0
+1496,"['geographic', 'location']","['location', 'geographic']",1
+1497,"['Product', 'BillOfMaterials']","['product', 'productproductphoto', 'productphotolocation', 'productphotolocationtype']",0
+1498,"['Episode', 'Credit']","['credit', 'episode', 'person']",0
+1499,"['Solution', 'Method']","['solution', 'nameTokenized']",0
+1500,['PurchaseOrderHeader'],['salesorderheader'],0
+1501,"['torrents', 'tags']","['torrents', 'tags']",1
+1502,"['trip', 'weather']","['weather', 'trip']",1
+1503,"['gender_age', 'phone_brand_device_model2']",['phone_brand_device_model2'],0
+1504,"['data', 'price']","['price', 'data']",1
+1505,"['Dish', 'MenuItem']","['dish', 'menuitem']",0
+1506,"['shipment', 'driver']","['driver', 'shipment']",1
+1507,"['Episode', 'Credit']","['credit', 'episode']",0
+1508,"['country', 'encompasses', 'continent', 'population']","['country', 'continent', 'population']",0
+1509,['Menu'],['menu'],0
+1510,"['game_platform', 'game_publisher', 'game']",['game'],0
+1511,"['Country', 'CountryLanguage']","['countrylanguage', 'country']",0
+1512,"['Country', 'CountryLanguage']",['countrylanguage'],0
+1513,"['Award', 'Person']","['credit', 'person']",0
+1514,"['Player_Match', 'Rolee']",['player'],0
+1515,"['Award', 'Episode']","['award', 'episode', 'vote']",0
+1516,['Crime'],['crime'],0
+1517,"['Product', 'ProductSubcategory', 'ProductCategory']","['productcategory', 'productmodelproductdescriptionculture']",0
+1518,"['trip', 'station']","['trip', 'station']",1
+1519,['Method'],"['method', 'format']",0
+1520,"['movies2actors', 'movies']","['movies', 'movies2actors']",1
+1521,['country'],['country'],1
+1522,"['twitter', 'user']","['user', 'twitter']",1
+1523,"['people', 'central_superstore', 'product']","['product', 'central_superstore']",1
+1524,"['actor', 'film_actor', 'film_category']","['actor', 'film_actor', 'category', 'film', 'film_category']",1
+1525,['customers'],['customers'],1
+1526,"['Episode', 'Vote']","['episode', 'vote']",0
+1527,"['twitter', 'user']","['user', 'twitter']",1
+1528,"['Vendor', 'PurchaseOrderHeader']","['vendor', 'purchaseorderheader']",0
+1529,"['supplier', 'nation']","['supplier', 'nation']",1
+1530,['student'],['ra'],0
+1531,['voice-actors'],['voice-actors'],1
+1532,"['Airlines', 'Air Carriers']",['airlines'],0
+1533,"['Award', 'Character_Award']","['Character_award', 'award']",0
+1534,['Users'],['users'],0
+1535,"['violations', 'businesses']","['violations', 'businesses']",1
+1536,"['book', 'book_language']","['book', 'book_language']",1
+1537,['Business'],"['reviews', 'business']",0
+1538,['CreditCard'],['creditCard'],1
+1539,"['Customers', 'Orders']","['orders', 'customers']",0
+1540,['matchs'],"['matchs', 'divisions']",1
+1541,['category'],['category'],1
+1542,"['IMG_OBJ', 'OBJ_CLASSES']","['img_obj', 'obj_classES']",0
+1543,"['orders', 'customers']","['orders', 'customers']",1
+1544,"['rootbeerbrand', 'rootbeerreview']","['rootbeerreview', 'rootbeerbrand']",1
+1545,"['film_actor', 'actor', 'film']","['film_actor', 'actor']",1
+1546,['weather'],['weather'],1
+1547,"['generalinfo', 'geographic']","['location', 'generalinfo']",0
+1548,"['Player', 'Batting_Style']",['player'],0
+1549,"['Products', 'Sales', 'Customers']","['sales', 'customers']",0
+1550,"['chapters', 'works']",['works'],0
+1551,"['film', 'film_category', 'category']","['actor', 'film_category', 'category']",1
+1552,"['production_company', 'movie_company', 'movie']","['movie_company', 'movie']",0
+1553,"['Repo', 'Solution']","['solution', 'repo']",0
+1554,"['games_city', 'city', 'games']","['games_city', 'city']",1
+1555,"['Products', 'Order Details']","['products', 'suppliers']",0
+1556,"['Answer', 'Question']",['answer'],0
+1557,"['observations', 'patients']","['patients', 'observations']",1
+1558,"['Award', 'Episode']","['award', 'episode']",0
+1559,['Suppliers'],['suppliers'],0
+1560,"['works', 'chapters', 'paragraphs']",['characters'],0
+1561,"['Products', 'Sales']","['products', 'sales']",0
+1562,"['actor', 'film_actor', 'film']","['film_text', 'actor']",1
+1563,['Master'],"['scoring', 'goalies']",0
+1564,"['torrents', 'tags']","['torrents', 'tags']",1
+1565,"['conditions', 'patients', 'all_prevalences']",['patients'],0
+1566,"['characters', 'movies_total_gross']","['characters', 'movies_total_gross']",1
+1567,['Method'],"['method', 'solution', 'methodparameter']",0
+1568,['projects'],['teachers'],0
+1569,['book'],['book'],1
+1570,"['ratings', 'movies']","['movies', 'ratings', 'lists_users', 'ratings_users']",1
+1571,['organization'],"['organization', 'city']",1
+1572,['trip'],['trip'],1
+1573,"['client', 'events']","['events', 'client']",1
+1574,"['works', 'chapters']","['works', 'chapters']",1
+1575,"['client', 'events']","['events', 'client']",1
+1576,"['Airports', 'Airlines']","['airlines', 'air carriers']",0
+1577,"['twitter', 'user']","['user', 'twitter']",1
+1578,"['trip', 'station']",['trip'],0
+1579,"['Region', 'Territories', 'EmployeeTerritories']",['employees'],0
+1580,"['pub_info', 'publishers']",['publishers'],0
+1581,"['movie', 'movie_genres', 'genre']","['movie', 'movie_genres', 'genre']",1
+1582,"['movie', 'movie_cast', 'gender']","['person', 'gender', 'movie_cast']",1
+1583,"['matchs', 'divisions']","['matchs', 'divisions']",1
+1584,['phone_brand_device_model2'],['phone_brand_device_model2'],1
+1585,"['customers', 'transaction']","['transaction', 'customers']",1
+1586,"['truck', 'shipment']","['truck', 'shipment']",1
+1587,['movie_crew'],['movie_crew'],1
+1588,"['continent', 'encompasses', 'country', 'economy']","['country', 'continent']",0
+1589,"['gender_age', 'phone_brand_device_model2']","['gender_age', 'phone_brand_device_model2']",1
+1590,"['words', 'biwords']",['words'],0
+1591,['game_platform'],['game_publisher'],0
+1592,"['playstore', 'user_reviews']","['playstore', 'user_reviews']",1
+1593,['Store Locations'],['store locations'],0
+1594,"['country', 'politics']",['country'],0
+1595,['SalesTaxRate'],"['salesTaxRate', 'salesorderheader']",0
+1596,"['Match', 'Toss_Decision']","['toss_decision', 'team']",0
+1597,"['coins', 'historical']",['coins'],0
+1598,"['Orders', 'Shippers']","['orders', 'suppliers']",0
+1599,['OBJ_CLASSES'],['OBJ_CLasSES'],0
+1600,"['student', 'registration', 'course']","['course', 'registration', 'student']",1
+1601,"['movies', 'ratings']","['ratings', 'movies']",1
+1602,"['student', 'registration', 'course']","['student', 'registration', 'course']",1
+1603,['Match'],['match'],0
+1604,"['game', 'genre']","['genre', 'game']",1
+1605,"['Goalies', 'Master', 'Teams']","['goalies', 'abbrev']",0
+1606,"['Business', 'Reviews']","['reviews', 'business']",0
+1607,['Menu'],"['menuPage', 'menu']",0
+1608,"['actor', 'film_actor', 'film']","['actor', 'film_actor']",1
+1609,"['employee', 'position']","['position', 'employee']",1
+1610,"['country', 'located']","['river', 'located', 'country']",1
+1611,"['trip', 'station']","['trip', 'station']",1
+1612,"['Community_Area', 'Crime']","['crime', 'community_area']",0
+1613,"['Indicators', 'Country']","['country', 'indicators']",0
+1614,"['Episode', 'Credit']","['credit', 'episode']",0
+1615,"['patients', 'conditions']",['conditions'],0
+1616,"['Master', 'Goalies']","['goalies', 'goaliessc']",0
+1617,['employee'],['employee'],1
+1618,"['person', 'taughtBy', 'course']",['person'],0
+1619,['revenue'],['revenue'],1
+1620,"['payment', 'customer']","['payment', 'customer']",1
+1621,"['players', 'player_allstar']","['players_teams', 'teams']",1
+1622,['Paper'],['paper'],0
+1623,"['customer', 'payment']","['payment', 'customer']",1
+1624,['longest_absense_from_school'],['longest_absense_from_school'],1
+1625,['Employees'],['employees'],0
+1626,"['ranking_system', 'ranking_criteria']","['ranking_criteria', 'ranking_system']",1
+1627,['Award'],['award'],0
+1628,"['organization', 'city']","['city', 'organization']",1
+1629,['Method'],"['solution', 'method']",0
+1630,['Mailings1_2'],['mailings1_2'],0
+1631,"['east_superstore', 'people']","['central_superstore', 'people']",1
+1632,"['Employee', 'Person']",['employee'],0
+1633,"['patients', 'allergies']",['allergies'],0
+1634,"['Indicators', 'Country']",['indicators'],0
+1635,"['employee', 'jobs']","['job_desc', 'employee']",1
+1636,['Employees'],['employees'],0
+1637,"['essays', 'donations']","['donations', 'projects']",0
+1638,"['male', 'no_payment_due']","['no_payment_due', 'bool', 'male']",1
+1639,"['PersonPhone', 'PhoneNumberType']",['PhoneNumberType'],0
+1640,"['SeasonStatus', 'PlayerInfo']","['seasonstatus', 'playerinfo']",0
+1641,"['historical', 'historical-terms']",['historical'],0
+1642,"['historical', 'historical-terms']","['historical', 'historical-terms']",1
+1643,['Business'],['business'],0
+1644,"['Recipe', 'Quantity', 'Ingredient']","['quantity', 'ingredient']",0
+1645,"['titles', 'sales']","['sales', 'titles']",1
+1646,['Community_Area'],['community_area'],0
+1647,"['u2base', 'movies2actors', 'actors', 'users']","['movies', 'movies2actors', 'actors']",0
+1648,"['publisher', 'game_publisher', 'game']","['game_publisher', 'game', 'publisher']",1
+1649,['Air Carriers'],['airlines'],0
+1650,"['weather', 'relation']",['weather'],0
+1651,"['coins', 'historical']","['historical', 'coins']",1
+1652,"['Address', 'BusinessEntityAddress']","['businessentityaddress', 'address']",0
+1653,"['country', 'ethnicGroup']","['country', 'ethnicGroup']",1
+1654,"['Country', 'City']","['city', 'country']",0
+1655,"['social-media', 'current']","['historical', 'historical-terms', 'social-media']",0
+1656,"['Episode', 'Credit', 'Person']","['credit', 'episode', 'person']",0
+1657,['Attributes'],['attributes'],0
+1658,"['film', 'film_category', 'category']","['film_text', 'category']",1
+1659,"['IUCR', 'Crime']","['crime', 'iucr']",0
+1660,"['state', 'district', 'client']","['client', 'state']",0
+1661,"['filed_for_bankrupcy', 'male']","['filed_for_bankrupcy', 'male']",1
+1662,"['Orders', 'Order Details', 'Products']","['orders', 'products']",0
+1663,"['Employee', 'Person']",['person'],0
+1664,"['Paper', 'Conference']","['paper', 'conference']",0
+1665,['awards_coaches'],['awards_coaches'],1
+1666,"['Person', 'Employee', 'EmployeeDepartmentHistory']",['employee'],0
+1667,['movies_total_gross'],"['movies_total_gross', 'director', 'characters']",1
+1668,"['location', 'generalinfo']","['location', 'generalinfo']",1
+1669,"['Person', 'PersonCreditCard', 'CreditCard']","['person', 'personcreditcard']",0
+1670,"['person', 'games_competitor']","['person', 'games_competitor']",1
+1671,"['Sales Orders', 'Store Locations']","['sales orders', 'store locations']",0
+1672,"['label_categories', 'app_labels']","['app_all', 'app_labels', 'label_categories']",1
+1673,"['area_code', 'zip_data']","['zip_data', 'area_code']",1
+1674,"['ratings', 'movies']","['movies', 'ratings']",1
+1675,['Tips'],"['tips', 'business', 'business_categories']",0
+1676,"['players', 'player_allstar']",['player_allstar'],0
+1677,"['games', 'games_competitor']","['games', 'games_competitor']",1
+1678,"['data', 'production', 'country']","['data', 'country', 'production']",1
+1679,['Series'],['indicators'],0
+1680,"['ProductInventory', 'Product']","['product', 'location']",0
+1681,"['players_teams', 'teams']","['teams', 'player_allstar']",1
+1682,"['shipment', 'customer']","['customer', 'shipment']",1
+1683,['Crime'],"['crime', 'ward']",0
+1684,['university_year'],['university_year'],1
+1685,['person'],['person'],1
+1686,['staff'],['staff'],1
+1687,"['film_actor', 'actor']","['actor', 'film_actor']",1
+1688,"['zip_data', 'state']",['state'],0
+1689,"['Categories', 'Business_Categories']","['business', 'business_categories', 'categories']",0
+1690,"['no_payment_due', 'unemployed']","['unemployed', 'no_payment_due']",1
+1691,"['client', 'callcenterlogs']",['client'],0
+1692,"['Teams', 'TeamVsTeam']","['teamvsTeam', 'teams']",0
+1693,"['Products', 'Categories']","['products', 'categories']",0
+1694,"['game', 'genre']","['game', 'genre']",1
+1695,"['pages', 'pages_words']","['pages', 'words']",0
+1696,"['partsupp', 'supplier', 'part']","['partsupp', 'supplier']",1
+1697,"['book_language', 'book', 'publisher']","['book', 'book_language', 'publisher']",1
+1698,['transaction'],['transaction'],1
+1699,"['Country', 'Indicators', 'CountryNotes']","['country', 'indicators']",0
+1700,['pages'],"['pages', 'pages_words']",1
+1701,"['gender_age', 'events_relevant', 'app_events_relevant']","['gender_age', 'app_all', 'app_labels', 'label_categories']",0
+1702,"['movie', 'movie_crew', 'person']","['person', 'movie_crew']",1
+1703,"['game', 'genre']","['game', 'genre']",1
+1704,"['Country', 'City']","['city', 'country']",0
+1705,"['area_code', 'zip_data']","['state', 'city']",0
+1706,['TransactionHistory'],"['productcosthistory', 'salesorderdetail']",0
+1707,"['supplier', 'partsupp']","['partsupp', 'supplier']",1
+1708,['Author'],['author'],0
+1709,"['Recipe', 'Quantity']","['quantity', 'recipe', 'ingredient']",0
+1710,"['customer', 'rental']","['actor', 'rental', 'customer']",1
+1711,['langs_words'],"['langs', 'langs_words']",1
+1712,"['university', 'university_year', 'country']","['university', 'university_year', 'country']",1
+1713,"['movie', 'characters', 'actor']","['movie', 'actor', 'characters']",1
+1714,"['titles', 'publishers']",['publishers'],0
+1715,"['gender_age', 'phone_brand_device_model2']","['gender_age', 'phone_brand_device_model2']",1
+1716,"['Sales', 'Employees']","['employees', 'sales']",0
+1717,['matchs'],['matchs'],1
+1718,"['Employees', 'EmployeeTerritories', 'Territories']",['employees'],0
+1719,"['client', 'events']","['client', 'callcenterlogs']",0
+1720,"['movie', 'movie_languages', 'language']","['movie', 'language']",0
+1721,"['generalinfo', 'location']","['location', 'generalinfo']",1
+1722,['donations'],"['donations', 'essays']",1
+1723,['Business'],['business'],0
+1724,"['Umpire', 'Country']","['umpires', 'country']",0
+1725,['Community_Area'],['community_area'],0
+1726,['Business'],['business'],0
+1727,"['Categories', 'Business_Categories', 'Business_Hours', 'Days']","['business_hours', 'business_categories', 'categories']",0
+1728,"['employee', 'position']","['position', 'employee']",1
+1729,"['ratings', 'movies']","['movies', 'ratings']",1
+1730,"['Episode', 'Award']","['award', 'episode']",0
+1731,"['Country', 'CountryNotes']","['country', 'countrynotes', 'series', 'seriesnotes']",0
+1732,['game_platform'],['game_publisher'],0
+1733,"['Ingredient', 'Quantity']","['quantity', 'ingredient']",0
+1734,"['payments', 'customers']","['payments', 'customers']",1
+1735,"['platform', 'game_platform', 'region_sales']","['platform', 'region_sales', 'game_platform']",1
+1736,"['twitter', 'location']","['twitter', 'location']",1
+1737,"['Award', 'Episode']","['award', 'episode']",0
+1738,"['patients', 'encounters']","['patients', 'encounters']",1
+1739,"['Product', 'ProductListPriceHistory']","['Product', 'ProductListPriceHistory']",1
+1740,"['payment', 'customer']","['payment', 'customer']",1
+1741,"['games', 'games_competitor', 'person']","['games', 'games_competitor']",0
+1742,"['Product', 'ProductSubcategory']","['product', 'productsubcategory']",0
+1743,['CountryLanguage'],"['countrylanguage', 'country']",0
+1744,"['Master', 'Goalies']","['goalies', 'goaliessc', 'goaliesshootout']",0
+1745,"['categories', 'podcasts']","['podcasts', 'categories']",1
+1746,"['customers', 'payments']","['payments', 'customers']",1
+1747,['weather'],"['weather', 'relation']",1
+1748,"['Business', 'Business_Attributes', 'Attributes']","['business', 'business_attributes', 'attributes']",0
+1749,"['FootNotes', 'Country']","['footnotes', 'country']",0
+1750,"['supplier', 'nation']","['supplier', 'nation']",1
+1751,"['Categories', 'Business_Categories', 'Business']","['business', 'business_categories', 'categories']",0
+1752,"['games', 'games_competitor', 'games_city', 'city']","['games', 'games_city', 'city']",0
+1753,"['Player', 'Match', 'Player_Match', 'Season', 'Team']","['player', 'season']",0
+1754,"['users', 'u2base']","['u2base', 'users']",1
+1755,"['game', 'game_publisher', 'publisher']","['game_publisher', 'publisher']",1
+1756,"['film', 'film_category', 'category']","['film', 'film_category', 'category']",1
+1757,"['institution_details', 'institution_grads']",['institution_grads'],0
+1758,"['actor', 'film_actor', 'film']","['actor', 'film_actor', 'film']",1
+1759,"['Coaches', 'Teams', 'Master']","['coaches', 'teams']",0
+1760,"['current', 'current-terms']","['historical', 'historical-terms', 'social-media']",0
+1761,"['Business', 'Business_Attributes', 'Attributes']","['business_attributes', 'attributes']",0
+1762,"['film', 'inventory', 'rental']","['film', 'inventory', 'rental']",1
+1763,"['Coaches', 'Teams']","['awardsCoaches', 'coaches']",0
+1764,"['people', 'central_superstore']","['central_superstore', 'people']",1
+1765,"['Business', 'Business_Categories', 'Categories']","['business', 'business_categories', 'categories']",0
+1766,['cars'],['cars'],1
+1767,"['PlayerInfo', 'height_info']","['height_info', 'playerinfo']",0
+1768,"['players', 'players_teams', 'teams']","['players_teams', 'teams']",1
+1769,"['country', 'geo_mountain', 'mountain']","['mountain', 'country']",0
+1770,"['ProductReview', 'Product']",['productreview'],0
+1771,"['current', 'current-terms']",['current'],0
+1772,"['Country', 'Indicators']","['country', 'indicators']",0
+1773,"['data', 'production']","['data', 'production']",1
+1774,['river'],['river'],1
+1775,['resources'],['donations'],0
+1776,"['book', 'publisher']","['book', 'publisher']",1
+1777,"['organization', 'country']","['organization', 'islandIn']",0
+1778,['payment'],"['payment', 'customer']",1
+1779,['SalesPerson'],['salesorderheader'],0
+1780,['projects'],['projects'],1
+1781,"['PaperAuthor', 'Paper']","['paper', 'paperauthor']",0
+1782,['film'],"['film_text', 'film']",1
+1783,['gender_age'],['gender_age'],1
+1784,"['Episode', 'Vote']","['episode', 'vote']",0
+1785,"['Categories', 'Products']","['products', 'categories']",0
+1786,"['projects', 'essays']","['essays', 'projects']",1
+1787,"['shipment', 'driver']","['driver', 'shipment']",1
+1788,['Business'],"['business', 'business_categories', 'categories']",0
+1789,"['zip_data', 'alias']","['alias', 'area_code']",0
+1790,"['Recipe', 'Quantity', 'Ingredient']","['quantity', 'ingredient']",0
+1791,"['customers', 'orders', 'orderdetails']","['orders', 'customers']",0
+1792,"['titles', 'roysched']",['roysched'],0
+1793,"['Employees', 'EmployeeTerritories']",['employees'],0
+1794,"['employee', 'inspection', 'establishment']","['inspection', 'violation', 'establishment']",0
+1795,"['movies', 'ratings']","['ratings', 'movies']",1
+1796,"['Recipe', 'Nutrition']","['recipe', 'nutrition']",0
+1797,"['Coaches', 'AwardsCoaches']",['awardsCoaches'],0
+1798,['film'],['film'],1
+1799,"['inspection_point', 'violation']","['inspection', 'violation']",0
+1800,"['customer', 'shipment']","['customer', 'shipment']",1
+1801,"['film_category', 'film', 'category']","['film_category', 'category']",1
+1802,"['teams', 'players_teams']","['players_teams', 'teams']",1
+1803,['Users'],['users'],0
+1804,['film_actor'],['film_actor'],1
+1805,['customer'],['customer'],1
+1806,"['Categories', 'Business_Categories', 'Business', 'Reviews']","['reviews', 'business_categories', 'categories']",0
+1807,['address'],['address'],1
+1808,"['District', 'Crime']","['crime', 'district']",0
+1809,"['works', 'chapters']","['works', 'chapters']",1
+1810,"['employee', 'location']",['location'],0
+1811,"['person', 'games_competitor', 'games_city', 'city']","['person', 'games_competitor', 'city', 'games_city']",1
+1812,['pages'],['pages'],1
+1813,"['ProductVendor', 'Vendor']","['vendor', 'salesorderheader']",0
+1814,"['Business', 'Tips']","['business', 'tips']",0
+1815,"['game_platform', 'platform']","['platform', 'game_platform']",1
+1816,"['cust_order', 'order_history']","['order_history', 'order_status']",0
+1817,"['Airlines', 'Air Carriers']","['airlines', 'air carriers']",0
+1818,"['movie', 'movie_keywords']","['movie_keywords', 'keyword']",1
+1819,"['person', 'movie_cast']","['person', 'movie_cast']",1
+1820,"['actor', 'film_actor', 'film']",['actor'],0
+1821,"['current', 'current-terms']","['historical', 'historical-terms']",0
+1822,"['ranking_criteria', 'university_ranking_year']",['university_ranking_year'],0
+1823,"['lists_users', 'lists']","['lists', 'lists_users']",1
+1824,['Employee'],['JobCandidate'],0
+1825,['current-terms'],"['historical', 'historical-terms']",0
+1826,"['essays', 'projects']","['projects', 'teachers']",0
+1827,"['characters', 'director']","['characters', 'director']",1
+1828,"['client', 'callcenterlogs']",['client'],0
+1829,"['works', 'chapters', 'paragraphs', 'characters']","['works', 'characters']",0
+1830,['address'],"['address', 'city']",1
+1831,"['Customers', 'Mailings1_2', 'Demog']","['demog', 'customers']",0
+1832,"['station', 'trip']","['trip', 'station']",1
+1833,['Menu'],"['menu', 'sponsor']",0
+1834,['paragraphs'],['paragraphs'],1
+1835,"['Recipe', 'Nutrition']","['recipe', 'nutrition']",0
+1836,['SalesOrderDetail'],['salesorderdetail'],0
+1837,['Airlines'],['airlines'],0
+1838,"['university', 'university_ranking_year', 'ranking_criteria']","['university', 'university_ranking_year', 'ranking_criteria']",1
+1839,"['ContactType', 'BusinessEntityContact']","['businessentitycontact', 'person']",0
+1840,['IUCR'],"['crime', 'iucr']",0
+1841,"['movie', 'movie_genres', 'production_COUNTry', 'genre', 'COUNTry']","['movie_genres', 'genre', 'movie', 'production_country']",0
+1842,"['Employee', 'Person']",['employee'],0
+1843,['Store Locations'],['store locations'],0
+1844,"['actor', 'film_actor']","['actor', 'film_actor']",1
+1845,['Customers'],['customers'],0
+1846,"['IMG_REL', 'PRED_CLASSES']","['PRED_CLasSES', 'img_rel']",0
+1847,"['games_competitor', 'games', 'games_city', 'city']","['games_city', 'city', 'games_competitor']",1
+1848,"['Shift', 'EmployeeDepartmentHistory']","['shift', 'employee']",0
+1849,"['student', 'registration', 'course']","['course', 'registration', 'student']",1
+1850,['university'],"['university', 'country']",1
+1851,"['client', 'events']","['client', 'callcenterlogs']",0
+1852,"['Employees', 'EmployeeTerritories', 'Territories']",['employees'],0
+1853,"['Products', 'Suppliers']","['products', 'suppliers']",0
+1854,"['no_payment_due', 'disabled']","['disabled', 'no_payment_due']",1
+1855,['playstore'],['playstore'],1
+1856,"['truck', 'shipment']","['shipment', 'truck']",1
+1857,"['sales_in_weather', 'relation']",['sales_in_weather'],0
+1858,"['actor', 'film_actor', 'film']","['film_text', 'actor', 'film_actor']",1
+1859,"['station', 'trip']","['trip', 'station']",1
+1860,"['Team', 'Match', 'Player_Match', 'Win_By']","['team', 'win_by']",0
+1861,"['violations', 'businesses']","['violations', 'businesses']",1
+1862,"['customer', 'shipment']","['customer', 'shipment']",1
+1863,"['book_author', 'author', 'book']","['book_author', 'book', 'author']",1
+1864,"['inspection', 'establishment']","['inspection', 'establishment']",1
+1865,"['generalinfo', 'location']",['location'],0
+1866,"['price', 'production', 'country']","['data', 'country', 'production']",0
+1867,['app_events'],"['app_all', 'app_events']",1
+1868,['torrents'],['torrents'],1
+1869,['payment'],['payment'],1
+1870,"['Episode', 'Credit', 'Person']","['credit', 'episode']",0
+1871,"['rootbeer', 'rootbeerbrand']","['rootbeer', 'rootbeerbrand']",1
+1872,"['team', 'Match']","['match', 'team']",0
+1873,"['pages', 'pages_words']","['pages', 'pages_words']",1
+1874,"['book', 'book_author', 'author']","['book_author', 'author']",1
+1875,"['country', 'province', 'city']","['city', 'population']",0
+1876,"['customer', 'rental']","['customer', 'rental']",1
+1877,"['part', 'partsupp']","['partsupp', 'part']",1
+1878,"['establishment', 'inspection', 'employee']","['inspection', 'establishment']",0
+1879,['Customers'],['customers'],0
+1880,"['institution_details', 'institution_grads']","['institution_grads', 'institution_details']",1
+1881,"['employee', 'inspection']","['inspection', 'employee']",1
+1882,"['Employees', 'EmployeeTerritories']",['employees'],0
+1883,"['movies2directors', 'actors', 'movies2actors']","['actors', 'movies2actors']",0
+1884,"['ratings', 'movies']","['movies', 'ratings', 'lists_users']",1
+1885,"['Match', 'Player']","['player', 'rolee']",0

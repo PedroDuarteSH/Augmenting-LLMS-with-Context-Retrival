@@ -1,0 +1,14 @@
+/msc_llms_context_retrieval/datasets
+/msc_llms_context_retrieval/*
+/thesis
+
+__pycache__
+interns.pem
+.vscode
+/model
+.aim
+/tokenizer
+/log
+/tokens
+/db
+/encoder_tokenizer

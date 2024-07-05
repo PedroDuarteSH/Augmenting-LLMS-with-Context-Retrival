@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-01-08T18:02:25.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="IE8g6S8qICEX8_NcvAB5" version="22.1.11" type="device">
+  <diagram name="Page-1" id="C5aUiLeyxTZzUa3XbaEz">
+    <mxGraphModel dx="1569" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-2" value="The RAG Paradigm" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="370" width="460" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-8" value="LLM integration Step" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="670" y="535" width="150" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-4" value="Data Sources" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="670" y="405" width="150" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-5" value="Modular&amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;align=right;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="395" y="420" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-4" value="Advanced&amp;nbsp; &amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;align=right;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="395" y="440" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-3" value="Naive" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="395" y="460" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-8" value="Optimizations" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="385" y="540" width="265" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-9" value="Query Rewriting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="390" y="550" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-10" value="ReRanking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="390" y="590" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-11" value="Chunk Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="520" y="550" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-12" value="Prompt Compression" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="520" y="590" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K9YLSskk2VNoMIyeKcpN-14" value="Categories" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="385" y="410" width="265" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-9" value="Training Corpus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-10" value="External Data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-11" value="&amp;nbsp;Unsupervised Learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-12" value="Pre-Training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="550" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-13" value="Fine-Tuning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="580" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="54oGW-9EAU5-F3137wxp-14" value="Inference" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="680" y="610" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

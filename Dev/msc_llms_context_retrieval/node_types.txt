@@ -1,0 +1,14 @@
+IIfNode ✅
+IJSONSerializeNode ???
+INRSendEmailNode X
+IAssignment ✅
+ISendEmailNode X
+IRaiseExceptionNode X
+IRecordListToExcelNode X
+IForEachNode ✅
+IExcelToRecordListNode ✅
+ISQLNode ✅
+IAggregateNode
+<END>
+IJSONDeserializeNode
+IExecuteServerActionNode

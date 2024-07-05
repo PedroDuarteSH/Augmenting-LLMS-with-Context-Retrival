@@ -1,0 +1,16 @@
+Node Type,Node Type Accuracy,Full Matching,Num Samples
+Global,0.772268065088301,0.5287267679494101,12967
+IIfNode,0.851,0.509,1000
+IJSONSerializeNode,0.596,0.532,1000
+INRSendEmailNode,,,0
+IAssignment,0.889,0.237,1000
+ISendEmailNode,0.8397104446742503,0.8397104446742503,967
+IRaiseExceptionNode,0.976,0.976,1000
+IRecordListToExcelNode,0.889,0.659,1000
+IForEachNode,0.836,0.698,1000
+IExcelToRecordListNode,0.774,0.304,1000
+ISQLNode,0.283,0.065,1000
+IAggregateNode,0.451,0.131,1000
+<END>,0.964,,1000
+IExecuteServerActionNode,0.949,0.32,1000
+IJSONDeserializeNode,0.744,0.649,1000
